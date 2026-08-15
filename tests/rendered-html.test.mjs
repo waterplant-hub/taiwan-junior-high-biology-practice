@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 async function render() {
@@ -44,4 +45,20 @@ test("server-renders the biology practice site", async () => {
   assert.doesNotMatch(html, /版本 0\.1|版本 0\.2/);
   assert.doesNotMatch(html, /不只對答案|這題你有多確定/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/i);
+});
+
+test("109 CAP question 5 keeps the official number and figure labels", async () => {
+  const source = await readFile(
+    new URL("../app/data/cap-104-110.json", import.meta.url),
+    "utf8",
+  );
+  const rows = JSON.parse(source);
+  const question = rows.find((row) => row.year === 109 && row.number === 5);
+
+  assert.ok(question, "109 CAP question 5 should exist");
+  assert.match(question.stem, /^圖（三）.*圖（四）/);
+  assert.doesNotMatch(question.stem, /圖1|圖2/);
+  assert.deepEqual(question.options, ["甲，丙", "甲，丁", "乙，丙", "乙，丁"]);
+  assert.equal(question.figure.src, "/questions/109/q05-official.png");
+  assert.match(question.figure.alt, /原題第 5 題.*圖（三）.*圖（四）/);
 });
