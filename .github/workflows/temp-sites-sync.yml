@@ -1,0 +1,18 @@
+name: Temporary Sites source sync
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push source to Sites
+        env:
+          SITES_TOKEN: ${{ secrets.SITES_PUBLISH_TOKEN_TEMP }}
+        run: |
+          git -c http.extraHeader="Authorization: Bearer ${SITES_TOKEN}" push "https://git.chatgpt-team.site/8c13a675-e62c-4c73-9211-0ca8049a964a/appgprj_6a80011ba38c81919bde02c8cb7be815.git" HEAD:main
