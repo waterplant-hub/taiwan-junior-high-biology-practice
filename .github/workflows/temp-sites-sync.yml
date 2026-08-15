@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Push source to Sites
         env:
-          SITES_TOKEN: ${{ secrets.SITES_PUBLISH_TOKEN_TEMP }}
+          SITES_TOKEN: ${{ secrets.SITES_PUBLISH_TOKEN_TEMP2 }}
           SITES_REMOTE: "https://git.chatgpt-team.site/8c13a675-e62c-4c73-9211-0ca8049a964a/appgprj_6a80011ba38c81919bde02c8cb7be815.git"
         run: |
           git -c http.extraHeader="Authorization: Bearer ${SITES_TOKEN}" fetch "${SITES_REMOTE}" main:refs/remotes/sites/main
