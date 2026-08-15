@@ -100,6 +100,10 @@ function examLabel(question: BiologyQuestion): string {
   return `${question.source.year} 年${examName(question)}${session}`;
 }
 
+function officialQuestionLabel(question: BiologyQuestion): string {
+  return `${examLabel(question)}原題第 ${question.source.originalNumber} 題`;
+}
+
 interface TextRange {
   start: number;
   end: number;
@@ -793,7 +797,7 @@ function PracticeView({
               )}
               <article className="question-card session-question-card">
               <div className="question-meta">
-                <span>第 {questionIndex + 1} 題・{examLabel(question)}</span>
+                <span>練習第 {questionIndex + 1} 題・{officialQuestionLabel(question)}</span>
                 <span>{chapterById[question.chapterId].name}・{question.topic}</span>
               </div>
               <div className="statistics-row">
@@ -809,7 +813,7 @@ function PracticeView({
               {!question.officialImageOnly && <h2 className="question-stem"><ScientificNameText text={question.stem} /></h2>}
               {!repeatsSharedFigure && <QuestionFigure question={question} />}
 
-              <div className="option-list" role="radiogroup" aria-label={`第 ${questionIndex + 1} 題作答選項`}>
+              <div className="option-list" role="radiogroup" aria-label={`練習第 ${questionIndex + 1} 題，${officialQuestionLabel(question)}作答選項`}>
                 {displayedOptions.map((option, optionIndex) => {
                   const isSelected = selectedOptionId === option.id;
                   const isAnswer = option.id === question.officialAnswer;
