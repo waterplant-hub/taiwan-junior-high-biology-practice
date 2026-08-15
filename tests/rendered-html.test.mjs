@@ -40,6 +40,7 @@ test("server-renders the biology practice site", async () => {
   assert.match(html, /所有年份/);
   assert.match(html, /108 課綱後/);
   assert.match(html, /© 2026 林顯豪｜題庫規劃、內容審訂與網站維護｜v1\.0/);
+  assert.match(html, /G-9ETEGP9CTL/);
   assert.doesNotMatch(html, /版本 0\.1|版本 0\.2/);
   assert.doesNotMatch(html, /不只對答案|這題你有多確定/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/i);

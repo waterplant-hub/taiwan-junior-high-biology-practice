@@ -37,6 +37,7 @@ import type {
   SessionQuestion,
 } from "./data/types";
 import { buildSessionQuestions, makeId } from "./lib/practice";
+import { trackPracticeEvent } from "./lib/analytics";
 import {
   downloadHistory,
   loadAttempts,
@@ -281,12 +282,17 @@ export default function BiologyPracticeApp() {
         (question.questionGroup && selectedGroupIds.has(question.questionGroup.id)),
     );
     const limit = Math.min(requestedLimit, completedPool.length);
-    setSessionQuestions(buildSessionQuestions(completedPool, nextMode, limit));
+    const nextSessionQuestions = buildSessionQuestions(completedPool, nextMode, limit);
+    setSessionQuestions(nextSessionQuestions);
     setSessionAnswers([]);
     setSessionId(makeId("session"));
     setSessionMode(nextMode);
     resetSessionState();
     setView("practice");
+    trackPracticeEvent("practice_start", {
+      practice_mode: nextMode,
+      question_count: nextSessionQuestions.length,
+    });
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -319,6 +325,10 @@ export default function BiologyPracticeApp() {
     setSessionAnswers(answers);
     setAndSaveAttempts([...attempts, ...sessionAttempts]);
     setChecked(true);
+    trackPracticeEvent("practice_complete", {
+      practice_mode: sessionMode,
+      question_count: sessionQuestions.length,
+    });
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -1022,7 +1032,7 @@ function AboutView() {
         <section>
           <span className="about-number">04</span>
           <h2>學生資料</h2>
-          <p>作答歷史只寫入瀏覽器本機儲存空間。網站不蒐集學生身分，也不把練習結果傳給教師；只有學生主動複製摘要或匯出紀錄時，資料才會離開這個畫面。</p>
+          <p>作答歷史只寫入瀏覽器本機儲存空間。網站不蒐集學生身分，也不把練習結果傳給教師；Google Analytics 僅統計整體瀏覽與練習次數，不傳送姓名、作答選項或成績。只有學生主動複製摘要或匯出紀錄時，完整紀錄才會離開這個畫面。</p>
         </section>
       </div>
 
