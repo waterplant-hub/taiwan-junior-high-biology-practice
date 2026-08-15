@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" width="100%">
+  <rect width="520" height="250" fill="#ffffff"/>
+  
+  <!-- 頂端標題 -->
+  <text x="260" y="32" font-family="'PMingLiU', 'MingLiU', 'DFKai-SB', serif" font-size="22" font-weight="bold" text-anchor="middle">表(二)</text>
+  
+  <!-- 外框與格線 -->
+  <rect x="20" y="45" width="480" height="190" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="150" y1="45" x2="150" y2="235" stroke="#000000" stroke-width="1.5"/>
+  <line x1="325" y1="45" x2="325" y2="235" stroke="#000000" stroke-width="1.5"/>
+  
+  <line x1="20" y1="83" x2="500" y2="83" stroke="#000000" stroke-width="1.5"/>
+  <line x1="20" y1="121" x2="500" y2="121" stroke="#000000" stroke-width="1.5"/>
+  <line x1="20" y1="159" x2="500" y2="159" stroke="#000000" stroke-width="1.5"/>
+  <line x1="20" y1="197" x2="500" y2="197" stroke="#000000" stroke-width="1.5"/>
+  
+  <!-- 表頭斜線 -->
+  <line x1="20" y1="45" x2="150" y2="83" stroke="#000000" stroke-width="1.5"/>
+  
+  <!-- 文字設定 -->
+  <style>
+    .cell-text { font-family: 'PMingLiU', 'MingLiU', '標楷體', serif; font-size: 16px; fill: #000000; text-anchor: middle; dominant-baseline: middle; }
+    .header-sub { font-family: 'PMingLiU', 'MingLiU', serif; font-size: 15px; fill: #000000; }
+  </style>
+  
+  <!-- 表頭斜線兩側文字 -->
+  <text x="108" y="58" class="header-sub">人名</text>
+  <text x="32" y="75" class="header-sub">項目</text>
+  
+  <!-- 內容 -->
+  <text x="237.5" y="64" class="cell-text" font-size="18">小明</text>
+  <text x="412.5" y="64" class="cell-text" font-size="18">阿華</text>
+  
+  <text x="85" y="102" class="cell-text">受器</text>
+  <text x="237.5" y="102" class="cell-text">嘴巴</text>
+  <text x="412.5" y="102" class="cell-text">腳</text>
+  
+  <text x="85" y="140" class="cell-text">動器</text>
+  <text x="237.5" y="140" class="cell-text">僅有腺體參與</text>
+  <text x="412.5" y="140" class="cell-text">僅有肌肉參與</text>
+  
+  <text x="85" y="178" class="cell-text">控制的中樞</text>
+  <text x="237.5" y="178" class="cell-text">大腦</text>
+  <text x="412.5" y="178" class="cell-text">大腦</text>
+  
+  <text x="85" y="216" class="cell-text">傳導的神經</text>
+  <text x="237.5" y="216" class="cell-text">僅有感覺神經元</text>
+  <text x="412.5" y="216" class="cell-text">僅有運動神經元</text>
+</svg>

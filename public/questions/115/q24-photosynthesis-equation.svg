@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%">
+  <rect width="600" height="120" fill="#ffffff"/>
+  
+  <style>
+    .eq-text { font-family: 'PMingLiU', 'MingLiU', 'DFKai-SB', serif; font-size: 28px; fill: #000000; dominant-baseline: middle; }
+    .condition-text { font-family: 'PMingLiU', 'MingLiU', 'DFKai-SB', serif; font-size: 22px; fill: #000000; text-anchor: middle; }
+  </style>
+
+  <!-- 左側反應物 -->
+  <text x="50" y="60" class="eq-text">水 ＋ 甲</text>
+  
+  <!-- 中央反應箭號 -->
+  <line x1="170" y1="60" x2="330" y2="60" stroke="#000000" stroke-width="2"/>
+  <polygon points="330,54 345,60 330,66" fill="#000000"/>
+  
+  <!-- 箭號上下條件 -->
+  <text x="250" y="42" class="condition-text">光</text>
+  <text x="250" y="88" class="condition-text">葉綠體</text>
+  
+  <!-- 右側生成物 -->
+  <text x="360" y="60" class="eq-text">乙 ＋ 丙 ＋ 水</text>
+</svg>
