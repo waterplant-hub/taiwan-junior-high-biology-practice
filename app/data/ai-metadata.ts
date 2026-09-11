@@ -116,7 +116,7 @@ const adaptationRules = [
 export function attachAiMetadata(question: BiologyQuestion): BiologyQuestion {
   if (question.aiMetadata) return question;
   const chapter = chapterById[question.chapterId];
-  const practiceUnit = resolvePracticeUnit(question.chapterId, question.topic);
+  const practiceUnit = resolvePracticeUnit(question.chapterId, question.topic, question.practiceUnitId);
   if (!practiceUnit) {
     throw new Error(`${question.id}: topic has no student-facing practice unit`);
   }
@@ -150,8 +150,8 @@ export function attachAiMetadata(question: BiologyQuestion): BiologyQuestion {
       curriculum: {
         sourceEra: question.source.year >= 111 ? "108 課綱" : "九年一貫課綱",
         currentStatus: isLegacyEvolution ? "舊課綱限定" : "現行適用",
-        ...(isLegacyEvolution
-          ? { note: "現行國中課綱不要求天擇、演化理論及動植物演化歷程。" }
+        ...((isLegacyEvolution || question.placementNote)
+          ? { note: [isLegacyEvolution ? "現行國中課綱不要求天擇、演化理論及動植物演化歷程。" : "", question.placementNote].filter(Boolean).join(" ") }
           : {}),
       },
     },

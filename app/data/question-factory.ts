@@ -1,5 +1,4 @@
 import { officialSources } from "./sources";
-import { attachAiMetadata } from "./ai-metadata";
 import type {
   BiologyQuestion,
   ChapterId,
@@ -35,7 +34,7 @@ export function makeQuestion(input: QuestionInput): BiologyQuestion {
     text,
   }));
 
-  return attachAiMetadata({
+  return {
     id: `cap-${input.year}-nature-${input.number}`,
     source: {
       exam: "國中教育會考",
@@ -67,5 +66,5 @@ export function makeQuestion(input: QuestionInput): BiologyQuestion {
         reason,
       })),
     },
-  });
+  };
 }

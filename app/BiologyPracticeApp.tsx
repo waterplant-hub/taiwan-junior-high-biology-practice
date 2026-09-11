@@ -555,7 +555,7 @@ function HomeView({
     .filter(({ count }) => count > 0);
   const availablePracticeUnits = selectedChapter === "all"
     ? []
-    : practiceUnits.filter((unit) => unit.chapterId === selectedChapter);
+    : practiceUnits.filter((unit) => unit.chapterId === selectedChapter).sort((a, b) => a.order - b.order);
   const countChoices = [1, 10].filter((limit) => limit < pool.length);
 
   return (

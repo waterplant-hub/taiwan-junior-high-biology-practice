@@ -1,4 +1,3 @@
-import { attachAiMetadata } from "./ai-metadata";
 import { officialSources } from "./sources";
 import type {
   BiologyQuestion,
@@ -35,7 +34,7 @@ export function makeBasicQuestion(input: BasicQuestionInput): BiologyQuestion {
     text,
   }));
 
-  return attachAiMetadata({
+  return {
     id: `basic-${input.year}-${input.session === "第二次" ? "second" : "first"}-nature-${input.number}`,
     source: {
       exam: "國民中學學生基本學力測驗",
@@ -69,5 +68,5 @@ export function makeBasicQuestion(input: BasicQuestionInput): BiologyQuestion {
         reason,
       })),
     },
-  });
+  };
 }

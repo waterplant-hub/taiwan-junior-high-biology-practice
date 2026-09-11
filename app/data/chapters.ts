@@ -13,14 +13,14 @@ export const chapters: Chapter[] = [
     order: 2,
     name: "生物體的基本單位",
     shortName: "細胞",
-    description: "細胞構造、功能、分裂與生物體的組成層次",
+    description: "細胞構造與觀察、物質進出細胞、生物體的組成層次",
   },
   {
     id: "nutrition-and-energy",
     order: 3,
     name: "養分與能量",
     shortName: "養分與能量",
-    description: "酵素、消化、光合作用與呼吸作用",
+    description: "食物中的養分、酵素、植物製造養分與人體消化吸收",
   },
   {
     id: "transport",
@@ -41,7 +41,7 @@ export const chapters: Chapter[] = [
     order: 6,
     name: "生物體內的恆定",
     shortName: "體內恆定",
-    description: "呼吸、排泄、水分、血糖與體溫調節",
+    description: "呼吸作用與氣體恆定、血糖、排泄與水分、體溫調節",
   },
   {
     id: "reproduction",

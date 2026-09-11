@@ -11,7 +11,7 @@ const forbiddenTemplateFragments = [
 
 export function validateYearExplanationQuality(
   questions: BiologyQuestion[],
-  year: Extract<ExamYear, 91 | 92 | 93 | 94 | 95 | 96 | 97 | 98 | 99 | 100 | 101 | 102 | 103 | 104 | 105 | 106 | 107 | 108 | 109 | 110 | 111 | 112 | 113>,
+  year: Exclude<ExamYear, 90>,
   expectedIds: Set<string>,
 ): void {
   const rows = questions.filter((question) => question.source.year === year);

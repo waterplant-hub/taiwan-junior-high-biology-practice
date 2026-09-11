@@ -66,6 +66,9 @@ export interface BiologyQuestion {
   source: OfficialSource;
   chapterId: ChapterId;
   topic: string;
+  /** Reviewed placement takes priority over title keyword matching. */
+  practiceUnitId?: string;
+  placementNote?: string;
   aiMetadata?: {
     schemaVersion: "1.0";
     chapterName: string;

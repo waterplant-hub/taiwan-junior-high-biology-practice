@@ -12,6 +12,7 @@ import { questionsBasicSecond97To100 } from "./questions-basic-second-97-100";
 import { questionsBasic94To96 } from "./questions-basic-94-96";
 import { questionsBasic90To93 } from "./questions-basic-90-93";
 import { attachAiMetadata } from "./ai-metadata";
+import { reviewQuestionPlacements } from "./curriculum-placement";
 import { refineUnit03Questions } from "./unit03-refinements";
 import { refineUnit04Questions } from "./unit04-refinements";
 import { refineUnit05Questions } from "./unit05-refinements";
@@ -179,7 +180,7 @@ refinedQuestions = refineYear113Explanations(refinedQuestions);
 refinedQuestions = refineYear114Explanations(refinedQuestions);
 refinedQuestions = refineYear115Explanations(refinedQuestions);
 
-export const questions = refinedQuestions.map(attachAiMetadata);
+export const questions = reviewQuestionPlacements(refinedQuestions).map(attachAiMetadata);
 
 function validateQuestions(rows: BiologyQuestion[]): void {
   const ids = new Set<string>();
