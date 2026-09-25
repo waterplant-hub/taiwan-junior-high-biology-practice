@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdtempSync, mkdirSync, readdirSync, readFileSync, writeFileSync, copyFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -28,6 +29,47 @@ const { questions, questionById } = require(join(scratch, "data/questions.js"));
 const { practiceUnits } = require(join(scratch, "data/practice-units.js"));
 const { buildSessionQuestions } = require(join(scratch, "lib/practice.js"));
 const { refineUnit01To03Explanations, unit01To03ExplanationRevisionIds } = require(join(scratch, "data/unit01-03-explanation-review.js"));
+const { refineUnit04To11Explanations, unit04To11ExplanationRevisionIds, unit04To11ReviewedChapters } = require(join(scratch, "data/unit04-11-explanation-review.js"));
+
+test("unit 04–11 review preserves all question data and the prior 107 explanations", () => {
+  const hash = value => createHash("sha256").update(JSON.stringify(value)).digest("hex");
+  assert.equal(hash(questions.map(({ explanation, ...rest }) => rest)), "3202265d9f3dfe9a88b71175fbb7cdab66a8335fb38e7e6b06b0527b87be0e99");
+  const prior = questions.filter(q => !unit04To11ReviewedChapters.includes(q.chapterId));
+  assert.equal(prior.length, 107);
+  assert.equal(hash(prior.map(q => q.explanation)), "1f9dfa11e9b43c5a02f78b3147d90ee97c78e7c10f7994db7042f422b172a145");
+  const input = structuredClone(questions);
+  const before = structuredClone(input);
+  const result = refineUnit04To11Explanations(input);
+  assert.deepEqual(input, before);
+  for (let i = 0; i < result.length; i++) {
+    const q = result[i];
+    if (!unit04To11ExplanationRevisionIds.has(q.id)) {
+      assert.strictEqual(q, input[i]);
+      continue;
+    }
+    assert.ok(unit04To11ReviewedChapters.includes(q.chapterId), q.id);
+    assert.equal(q.explanation.provenance, "ai-generated");
+    assert.equal(q.explanation.reviewStatus, "unreviewed");
+    assert.equal(q.explanation.optionAnalysisMode, "covered-by-reasoning");
+    assert.deepEqual(q.explanation.optionAnalysis, []);
+    assert.doesNotMatch(`${q.explanation.summary}\n${q.explanation.reasoning}`, /選項 [A-D]|因此選 [A-D]|故選 [A-D]|先定位血液成分|此選項與題圖資料|抽样|依题目|只凭|必须/, q.id);
+  }
+  assert.throws(() => refineUnit04To11Explanations([]), /invalid target/);
+});
+
+test("unit 04–11 explanations address the actual misconception instead of generic filler", () => {
+  const text = id => `${questionById[id].explanation.summary} ${questionById[id].explanation.reasoning}`;
+  assert.match(text("basic-98-first-nature-27"), /方向其實正確/);
+  assert.match(text("basic-100-second-nature-26"), /右心室.*左心房/);
+  assert.match(text("basic-90-second-nature-3"), /不像捕蠅草/);
+  assert.match(text("basic-96-second-nature-32"), /不能說食道完全沒有腺體/);
+  assert.match(text("basic-90-first-nature-5"), /胰液.*不經血液/);
+  assert.match(text("basic-93-first-nature-28"), /聚花果/);
+  assert.match(text("basic-90-second-nature-5"), /已生兩個女兒/);
+  assert.match(text("basic-92-first-nature-5"), /到乙就已完成辨認/);
+  assert.match(text("basic-99-first-nature-13"), /濃度也自動減半/);
+  assert.match(text("basic-92-first-nature-52"), /分解者也會呼吸/);
+});
 
 test("unit 01–03 explanation pass changes only explanations of its reviewed targets", () => {
   const input = structuredClone(questions);
