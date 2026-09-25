@@ -1,0 +1,5608 @@
+{
+  "auditDate": "2026-09-25",
+  "scope": "Three user-supplied images replaced and compared with publisher reference; remaining audit incomplete",
+  "sourceDocument": "/Users/waterplant/Downloads/國一下 大考卷/國一下 大考卷_題目&詳解_1卷.docx",
+  "authority": "publisher-reproduction; not verified against official original",
+  "summary": {
+    "uniqueImages": 269,
+    "questionsWithImages": 285,
+    "missingOrUnreadable": 0,
+    "visuallyCompared": 14,
+    "highPriorityDifferences": 0,
+    "presentationIssues": 6,
+    "matchedPublisher": 5,
+    "notVisuallyCompared": 255,
+    "replacedVerified": 3
+  },
+  "images": [
+    {
+      "src": "/questions/115/q06-figures.png",
+      "uses": [
+        {
+          "id": "cap-115-nature-6",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 1310,
+          "height": 350
+        }
+      ],
+      "sha256": "2086a6f8092c42612f9df1f2796826375c512e9d2fd65402dfa22a06a998b1d6",
+      "pixels": [
+        1310,
+        350
+      ],
+      "bytes": 266323,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/115/q10-nervous-system.webp",
+      "uses": [
+        {
+          "id": "cap-115-nature-10",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 390,
+          "height": 381
+        }
+      ],
+      "sha256": "c229c01346d56a96b16ef1b340aae601933d4cce7ead84ecef738c532ca78c41",
+      "pixels": [
+        390,
+        381
+      ],
+      "bytes": 11450,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/115/q11-lung-volume.png",
+      "uses": [
+        {
+          "id": "cap-115-nature-11",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 350,
+          "height": 440
+        }
+      ],
+      "sha256": "a283450e9ce7735d89e0cdb7c8541b7056c5b4058a2b7ecc1c523367b1be45b7",
+      "pixels": [
+        350,
+        440
+      ],
+      "bytes": 19633,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/115/q24-photosynthesis-equation.svg",
+      "uses": [
+        {
+          "id": "cap-115-nature-24",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 600,
+          "height": 120
+        }
+      ],
+      "sha256": "c6c703a3f58dddb6e87566799320e865439b00a124b0a497d88b97578fa79e89",
+      "pixels": [
+        600,
+        120
+      ],
+      "bytes": 923,
+      "format": "svg",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/115/q37-protein-graph.png",
+      "uses": [
+        {
+          "id": "cap-115-nature-37",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 455,
+          "height": 330
+        }
+      ],
+      "sha256": "4013e262957fbf5922ea9b8f5624876432ca12558b311c6c92f29f21d35f666b",
+      "pixels": [
+        455,
+        330
+      ],
+      "bytes": 18280,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/115/q44-45-transpiration.png",
+      "uses": [
+        {
+          "id": "cap-115-nature-44",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1310,
+          "height": 475
+        },
+        {
+          "id": "cap-115-nature-45",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1310,
+          "height": 475
+        }
+      ],
+      "sha256": "6b6bc9d2b4c5d5bd118b2165dbd3c6af79dcc5586f04083cba49e525916db562",
+      "pixels": [
+        1310,
+        475
+      ],
+      "bytes": 64912,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q12-neural-table.svg",
+      "uses": [
+        {
+          "id": "cap-114-nature-12",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 520,
+          "height": 250
+        }
+      ],
+      "sha256": "7b1325444efa1d3fc062b2d8b75cb99b1b161a245ae68fcbcb297ccd7e89925d",
+      "pixels": [
+        520,
+        250
+      ],
+      "bytes": 2405,
+      "format": "svg",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q20-blood-sugar.png",
+      "uses": [
+        {
+          "id": "cap-114-nature-20",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 500,
+          "height": 360
+        }
+      ],
+      "sha256": "77c332ae681b2d64ae5bd591cddf28f7b747552ccee01d15275758f980ac5170",
+      "pixels": [
+        500,
+        360
+      ],
+      "bytes": 27567,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q22-stem.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-22",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1307,
+          "height": 1203
+        }
+      ],
+      "sha256": "349a0c96708fa3e8d8c2d890e2c8a793e2ce2f2fe47c836be266347d20b80892",
+      "pixels": [
+        1307,
+        1203
+      ],
+      "bytes": 354888,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-114-nature-24--figure.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-24",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 579,
+          "height": 354
+        }
+      ],
+      "sha256": "48d14af073c6b9415742acb19eb13c6c832e6bf47c345bfdcfc1b8980771e5cc",
+      "pixels": [
+        579,
+        354
+      ],
+      "bytes": 33840,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q27-microscope.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-27",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 475,
+          "height": 539
+        }
+      ],
+      "sha256": "92391e9f45ad58adb5397cf1be9457e3e72248a9aaf0520aab68e9853c186d0d",
+      "pixels": [
+        475,
+        539
+      ],
+      "bytes": 18336,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-114-nature-34--figure.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-34",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 273,
+          "height": 299
+        }
+      ],
+      "sha256": "fd6b88d3fbc8e308f2340dddf9d1dab118e8bd60bb51d371d42059f6a0190a06",
+      "pixels": [
+        273,
+        299
+      ],
+      "bytes": 9876,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-114-nature-35--figure.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-35",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 401,
+          "height": 342
+        }
+      ],
+      "sha256": "aaa44b401ffbdcd2fbadc80910369d6b263a20a14685b3c00fa70c0e01d7ee77",
+      "pixels": [
+        401,
+        342
+      ],
+      "bytes": 15354,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q36-enzyme-table.png",
+      "uses": [
+        {
+          "id": "cap-114-nature-36",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 310,
+          "height": 345
+        }
+      ],
+      "sha256": "d3b0d1db05f2c55f937e5e94054232c5037d2b1258d996e92634fc201aa0ef09",
+      "pixels": [
+        310,
+        345
+      ],
+      "bytes": 16035,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/114/q45-46-bleeding.webp",
+      "uses": [
+        {
+          "id": "cap-114-nature-45",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1080,
+          "height": 355
+        },
+        {
+          "id": "cap-114-nature-46",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1080,
+          "height": 355
+        }
+      ],
+      "sha256": "2117fd3905097e529128abd77fcf96d1b3089f3eea382a739ba396a11075eacf",
+      "pixels": [
+        1080,
+        355
+      ],
+      "bytes": 25954,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/113/q09-osmosis.png",
+      "uses": [
+        {
+          "id": "cap-113-nature-9",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 725,
+          "height": 530
+        }
+      ],
+      "sha256": "9cf14a939342aa38d61266fd741fb36a1212a0c3876dc6897b7afd28347f928d",
+      "pixels": [
+        725,
+        530
+      ],
+      "bytes": 73109,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-113-nature-14--figure.webp",
+      "uses": [
+        {
+          "id": "cap-113-nature-14",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 369,
+          "height": 298
+        }
+      ],
+      "sha256": "d2fd2baa3edc034d634ea58841afdf68e3b0977af176675343410a1a9c984d1b",
+      "pixels": [
+        369,
+        298
+      ],
+      "bytes": 8320,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/113/q21-germination.png",
+      "uses": [
+        {
+          "id": "cap-113-nature-21",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 620,
+          "height": 226
+        }
+      ],
+      "sha256": "db65465da94329982672bcf40d21b92bc63ba448fe8961ff7f75e9fab0d18a1d",
+      "pixels": [
+        620,
+        226
+      ],
+      "bytes": 11303,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/113/q33-urinary.png",
+      "uses": [
+        {
+          "id": "cap-113-nature-33",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 305,
+          "height": 390
+        }
+      ],
+      "sha256": "8bd7dbe225d4f405e9750a1da1ac9c8ceb995acf8793328ede7e2558761d1971",
+      "pixels": [
+        305,
+        390
+      ],
+      "bytes": 23399,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/113/q41-enzyme-process.png",
+      "uses": [
+        {
+          "id": "cap-113-nature-41",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 535,
+          "height": 226
+        }
+      ],
+      "sha256": "b663d715191b58c0b027dcd079bf48e33c06a5af6d2f2e6c2c06831ad4792414",
+      "pixels": [
+        535,
+        226
+      ],
+      "bytes": 30742,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-113-nature-43--figure.webp",
+      "uses": [
+        {
+          "id": "cap-113-nature-43",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 718,
+          "height": 543
+        }
+      ],
+      "sha256": "d9ae6b1958a53284dc952381eb14d156d5602eacdafc8e5d4a486cc1bc0ca525",
+      "pixels": [
+        718,
+        543
+      ],
+      "bytes": 32662,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-113-nature-49--figure.webp",
+      "uses": [
+        {
+          "id": "cap-113-nature-49",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 795,
+          "height": 455
+        }
+      ],
+      "sha256": "c83eeb8bbe86aa98cd601dde0b97eea8ac342366c84d8ef0f185c5b2e688dcf4",
+      "pixels": [
+        795,
+        455
+      ],
+      "bytes": 15162,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-112-nature-14--figure.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-14",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 540,
+          "height": 175
+        }
+      ],
+      "sha256": "ec1eb311a8053985058a32bac5be64ccb9f648eb260ec4f4be2202d7b2219ead",
+      "pixels": [
+        540,
+        175
+      ],
+      "bytes": 8590,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-112-nature-20--figure.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-20",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 659,
+          "height": 257
+        }
+      ],
+      "sha256": "499c82cfe24031d8f1154f53234fa4dcee1858fcbbf1f431422ac177e2da1592",
+      "pixels": [
+        659,
+        257
+      ],
+      "bytes": 26276,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/112/q22-temperature.png",
+      "uses": [
+        {
+          "id": "cap-112-nature-22",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 900,
+          "height": 275
+        }
+      ],
+      "sha256": "4532e4d6abee45c5242ef084a84017d259f80a03deda2fe325f37d219118f11e",
+      "pixels": [
+        900,
+        275
+      ],
+      "bytes": 22671,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/112/q25-gases.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-25",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1224,
+          "height": 325
+        }
+      ],
+      "sha256": "19074071c269083481de8090a151047d78cf61b86d25ffcaf71fad3e00cb2989",
+      "pixels": [
+        1224,
+        325
+      ],
+      "bytes": 19512,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/112/q31-tail-fin.png",
+      "uses": [
+        {
+          "id": "cap-112-nature-31",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 465,
+          "height": 540
+        }
+      ],
+      "sha256": "fb507f1e88e98697a1f3520e82abc3722a6e0f79711bb94f8aced8298f88531c",
+      "pixels": [
+        465,
+        540
+      ],
+      "bytes": 23517,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-112-nature-35--figure.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-35",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1186,
+          "height": 286
+        }
+      ],
+      "sha256": "0b29eb92bb96de8cfa7b4ac2c8a866a10b74caa70492532728427351782602b8",
+      "pixels": [
+        1186,
+        286
+      ],
+      "bytes": 25748,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/112/q43-44-milk.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-43",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1292,
+          "height": 375
+        }
+      ],
+      "sha256": "23fbc91f8065ab97b1f2c0fc0563808140794e03a544240ea559a4497299e47e",
+      "pixels": [
+        1292,
+        375
+      ],
+      "bytes": 23828,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-112-nature-44--figure.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-44",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1280,
+          "height": 375
+        }
+      ],
+      "sha256": "800b562e0d2c33ee6e4a0f8efa47943f94261489d293f99556ce4bc9b6d67d59",
+      "pixels": [
+        1280,
+        375
+      ],
+      "bytes": 40050,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/112/q47-48-pesticide.webp",
+      "uses": [
+        {
+          "id": "cap-112-nature-47",
+          "chapter": "science-and-life",
+          "field": "questionGroup.sharedFigure",
+          "width": 1920,
+          "height": 544
+        },
+        {
+          "id": "cap-112-nature-48",
+          "chapter": "science-and-life",
+          "field": "questionGroup.sharedFigure",
+          "width": 1920,
+          "height": 544
+        }
+      ],
+      "sha256": "381c340d79eee6ee33789743b8cff3bf5084bb1c04d2617ed91456244e689ffd",
+      "pixels": [
+        1920,
+        544
+      ],
+      "bytes": 237650,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-111-nature-11--figure.webp",
+      "uses": [
+        {
+          "id": "cap-111-nature-11",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 691,
+          "height": 270
+        }
+      ],
+      "sha256": "7e6963f1f5325d59fc0288f925676ed608f3d6a1c271f685c21e60ed33ed810d",
+      "pixels": [
+        691,
+        270
+      ],
+      "bytes": 15418,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/111/q17-microscopes.webp",
+      "uses": [
+        {
+          "id": "cap-111-nature-17",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 1071,
+          "height": 1103
+        }
+      ],
+      "sha256": "532be48fd59bc5265324e44379dae01c80630aaad4d5fea6d12a8cad863d1602",
+      "pixels": [
+        1071,
+        1103
+      ],
+      "bytes": 374392,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-111-nature-23--figure.webp",
+      "uses": [
+        {
+          "id": "cap-111-nature-23",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1215,
+          "height": 265
+        }
+      ],
+      "sha256": "37dee1c321519f579e6276cc3b79e7694fcf2dd6c8cb082163f02a8d21eae103",
+      "pixels": [
+        1215,
+        265
+      ],
+      "bytes": 20244,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "稻→鼠→蛇→鷹及塔底甲乙丙丁相符；底部圖號裁切、左稻穗邊緣略切。",
+        "reference": "wordml02000001jpg13600.jpg + wordml02000002jpg13610.jpg",
+        "paragraph": 362
+      }
+    },
+    {
+      "src": "/questions/111/q26-heart-table.png",
+      "uses": [
+        {
+          "id": "cap-111-nature-26",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 300,
+          "height": 230
+        }
+      ],
+      "sha256": "0598ddeb1f2f806764c9dee7662798206c4b961c1f7fc08f34a521982474a631",
+      "pixels": [
+        300,
+        230
+      ],
+      "bytes": 14361,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/111/q35-organ-table.png",
+      "uses": [
+        {
+          "id": "cap-111-nature-35",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 285,
+          "height": 204
+        }
+      ],
+      "sha256": "b4e40fc1e6a871d49d5b68dd147a9b0df68d2af0d2a1c62ba611bb59c997b62a",
+      "pixels": [
+        285,
+        204
+      ],
+      "bytes": 20103,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-111-nature-39--figure.webp",
+      "uses": [
+        {
+          "id": "cap-111-nature-39",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 325,
+          "height": 245
+        }
+      ],
+      "sha256": "408164a7fb4f89d2428f2893302862f8b03787f6fa7b46d3b3f7af4ebadabb50",
+      "pixels": [
+        325,
+        245
+      ],
+      "bytes": 14122,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/111/q45-46-stem.webp",
+      "uses": [
+        {
+          "id": "cap-111-nature-45",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1833,
+          "height": 576
+        },
+        {
+          "id": "cap-111-nature-46",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1833,
+          "height": 576
+        }
+      ],
+      "sha256": "dc5a5bf193ba335039b2c5cc3749dc8b56adde3c56cb52d9997bb3e971b79004",
+      "pixels": [
+        1833,
+        576
+      ],
+      "bytes": 206102,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/cap-104-nature-1--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-1",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 375,
+          "height": 475
+        }
+      ],
+      "sha256": "c59da9868e25cfd49f39c4df362acad490421ccc85272e94b6d153bd75dabe9f",
+      "pixels": [
+        375,
+        475
+      ],
+      "bytes": 16208,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-104-nature-4--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-4",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 335,
+          "height": 205
+        }
+      ],
+      "sha256": "de22c4283e4d16240d42c37a061b5c8321aa3257ddfd29056c34c6bed0d4e9a9",
+      "pixels": [
+        335,
+        205
+      ],
+      "bytes": 6376,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/cap-104-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-6",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 1543,
+          "height": 1019
+        }
+      ],
+      "sha256": "1c22557e38c731460092c20f3cb1bdcc3703a07e9aa4215562e657b9f0009fb1",
+      "pixels": [
+        1543,
+        1019
+      ],
+      "bytes": 332540,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/104/q15-objectives.png",
+      "uses": [
+        {
+          "id": "cap-104-nature-15",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 360,
+          "height": 275
+        }
+      ],
+      "sha256": "180abd1e6a8747934a63eedfa424f2abbbbb66b8281804ed5283e24446c3f1ad",
+      "pixels": [
+        360,
+        275
+      ],
+      "bytes": 4023,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/104/q21-official.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-21",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1391,
+          "height": 1131
+        }
+      ],
+      "sha256": "feddb35fb18f60708a263def78a3fc11e0ff63869952201feed2d3c723d6ef27",
+      "pixels": [
+        1391,
+        1131
+      ],
+      "bytes": 348192,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/104/q24-official.png",
+      "uses": [
+        {
+          "id": "cap-104-nature-24",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 454,
+          "height": 339
+        }
+      ],
+      "sha256": "5f7d5152a97229401c5d1371dc1381e6fda49269ed213907a9ac02d3e1ef99b6",
+      "pixels": [
+        454,
+        339
+      ],
+      "bytes": 8661,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-104-nature-37--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-37",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 390,
+          "height": 205
+        }
+      ],
+      "sha256": "bca314b53534218bf3e20a8d9aecf004f8adcf23456519daf16b23c56b3dc3ac",
+      "pixels": [
+        390,
+        205
+      ],
+      "bytes": 17454,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/cap-104-nature-38--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-38",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 880
+        }
+      ],
+      "sha256": "704cdb7acc97419c2ab1c47a3b5bc02e2dd2ac509a098758d0386ef9e1d40fbb",
+      "pixels": [
+        1200,
+        880
+      ],
+      "bytes": 64532,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-104-nature-43--figure.webp",
+      "uses": [
+        {
+          "id": "cap-104-nature-43",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1328,
+          "height": 1184
+        }
+      ],
+      "sha256": "4a7be4bf33ba8d3008b9eeee1746935cc4e4d7dae336ff77d18babc545fe267a",
+      "pixels": [
+        1328,
+        1184
+      ],
+      "bytes": 286958,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-105-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "cap-105-nature-8",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 350,
+          "height": 320
+        }
+      ],
+      "sha256": "fb8f9fa167decf7341095ae0c739874fa9bbb5adc243ccf23231ec70f6cdd2cd",
+      "pixels": [
+        350,
+        320
+      ],
+      "bytes": 8960,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-105-nature-13--figure.png",
+      "uses": [
+        {
+          "id": "cap-105-nature-13",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 390,
+          "height": 280
+        }
+      ],
+      "sha256": "8b16bf2d67b6a21c7417f30af52fe262924a0c8781b07dfdf75830ad10427887",
+      "pixels": [
+        390,
+        280
+      ],
+      "bytes": 20060,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/105/q14-objectives.png",
+      "uses": [
+        {
+          "id": "cap-105-nature-14",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 470,
+          "height": 285
+        }
+      ],
+      "sha256": "eccbb5558822440fa764d1c7546c729d3d67e538408eebe7ad8603236481e9e5",
+      "pixels": [
+        470,
+        285
+      ],
+      "bytes": 4846,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-105-nature-16--figure.webp",
+      "uses": [
+        {
+          "id": "cap-105-nature-16",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1983,
+          "height": 793
+        }
+      ],
+      "sha256": "a4345c2478958775e14b6cd2bda548f4fb8ceb7724e7ae4b2879ac07bb11b223",
+      "pixels": [
+        1983,
+        793
+      ],
+      "bytes": 335646,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-105-nature-17--figure.webp",
+      "uses": [
+        {
+          "id": "cap-105-nature-17",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 440,
+          "height": 255
+        }
+      ],
+      "sha256": "1b40450811260d4b195e75d68751e85eb3725470500bdff60da8b9560c8363bb",
+      "pixels": [
+        440,
+        255
+      ],
+      "bytes": 10766,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/105/q28-official.webp",
+      "uses": [
+        {
+          "id": "cap-105-nature-28",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1907,
+          "height": 825
+        }
+      ],
+      "sha256": "413e2ffa0ddf2db6a5fdb32278f4572276d787abcff76d17e4eef52c93205012",
+      "pixels": [
+        1907,
+        825
+      ],
+      "bytes": 346694,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/105/q32-official.webp",
+      "uses": [
+        {
+          "id": "cap-105-nature-32",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 294,
+          "height": 216
+        }
+      ],
+      "sha256": "84f9a75e368515f487f4ff42a7f4cedec668751eb891b3409cc9436242661405",
+      "pixels": [
+        294,
+        216
+      ],
+      "bytes": 3390,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/105/q36-official.png",
+      "uses": [
+        {
+          "id": "cap-105-nature-36",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 364,
+          "height": 244
+        }
+      ],
+      "sha256": "e8c35630d538677dae1b43ecc78b10480fff0134119713a621563c3892728bda",
+      "pixels": [
+        364,
+        244
+      ],
+      "bytes": 8394,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-106-nature-2--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-2",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 390,
+          "height": 250
+        }
+      ],
+      "sha256": "9363d854c9b0b3d701446f9ec8f77f14a6e8a8eafa5d57152c0ac51065a3da28",
+      "pixels": [
+        390,
+        250
+      ],
+      "bytes": 12730,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/cap-106-nature-3--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-3",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 2170,
+          "height": 725
+        }
+      ],
+      "sha256": "2dd6e5bd04f803dc1edab4633d6211b83084309e90b98aeb2063fbefcf98a889",
+      "pixels": [
+        2170,
+        725
+      ],
+      "bytes": 370958,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-106-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-10",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1820,
+          "height": 864
+        }
+      ],
+      "sha256": "f0588ce88fdb708e4f5bd0baa214c53c180b5e0ca5fad2976edf1480f17e64d1",
+      "pixels": [
+        1820,
+        864
+      ],
+      "bytes": 349860,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/106/q12-official.png",
+      "uses": [
+        {
+          "id": "cap-106-nature-12",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 404,
+          "height": 324
+        }
+      ],
+      "sha256": "c296370c26ac6d056b46040b6269a20a69a2f5dc0b3c542a8a1a881180e5f77b",
+      "pixels": [
+        404,
+        324
+      ],
+      "bytes": 33652,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/106/q18-official.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-18",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 2164,
+          "height": 726
+        }
+      ],
+      "sha256": "9382d496b888d33d7a979f9c40d861d8ee8edf78f84a2aec0b97ee4ef6eb1be2",
+      "pixels": [
+        2164,
+        726
+      ],
+      "bytes": 274932,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-106-nature-24--figure.png",
+      "uses": [
+        {
+          "id": "cap-106-nature-24",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 475,
+          "height": 425
+        }
+      ],
+      "sha256": "27d276e025cd5005ea787e812a29e884fb107fbb9d28dee37af4d96b66129e58",
+      "pixels": [
+        475,
+        425
+      ],
+      "bytes": 33387,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/cap-106-nature-27--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-27",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 400,
+          "height": 430
+        }
+      ],
+      "sha256": "f819dfda86304663cde012c7273b102082067105754f46730b3b5d765eae6ef5",
+      "pixels": [
+        400,
+        430
+      ],
+      "bytes": 13958,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/cap-106-nature-36--figure.png",
+      "uses": [
+        {
+          "id": "cap-106-nature-36",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 345,
+          "height": 315
+        }
+      ],
+      "sha256": "dd58b687d85e7ac3d0e0e6a50efd3cf9494859d88c95945a91be7ea7b3e57bfa",
+      "pixels": [
+        345,
+        315
+      ],
+      "bytes": 7298,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-106-nature-37--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-37",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 330,
+          "height": 255
+        }
+      ],
+      "sha256": "8957b90f2cad8516442cf69989d68137c6b144f9af2392149158e5ec02e42e3e",
+      "pixels": [
+        330,
+        255
+      ],
+      "bytes": 7114,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-106-nature-38--figure.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-38",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 385,
+          "height": 300
+        }
+      ],
+      "sha256": "7c82b2be280cf33db9513f04e7d9d95c2c7a2f323528b45012925939f0b6333a",
+      "pixels": [
+        385,
+        300
+      ],
+      "bytes": 5812,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "甲乙丙丁大小順序及總能量軸相符；左緣殘留題幹字、圖號底部裁切。",
+        "reference": "wordml02000001jpg11900.jpg",
+        "paragraph": 311
+      }
+    },
+    {
+      "src": "/questions/refined/unit-01/cap-106-nature-group-47-48--shared.webp",
+      "uses": [
+        {
+          "id": "cap-106-nature-47",
+          "chapter": "science-and-life",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 520
+        },
+        {
+          "id": "cap-106-nature-48",
+          "chapter": "science-and-life",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 520
+        }
+      ],
+      "sha256": "edac70109aa985413d38699b224e01c26cd6d4cabefbb02234784a7cdf81b014",
+      "pixels": [
+        1200,
+        520
+      ],
+      "bytes": 36974,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-107-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-6",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 350,
+          "height": 300
+        }
+      ],
+      "sha256": "3706470ac5814e786170e762a6cede3fb2d42018c94525583d119d1d6eba3adf",
+      "pixels": [
+        350,
+        300
+      ],
+      "bytes": 7962,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/cap-107-nature-12--figure.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-12",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 415,
+          "height": 300
+        }
+      ],
+      "sha256": "e0bd2415ee99040cd8ff54d35ed552708fadb4e946355de3b9212a2329834c62",
+      "pixels": [
+        415,
+        300
+      ],
+      "bytes": 9982,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/107/q18-official.png",
+      "uses": [
+        {
+          "id": "cap-107-nature-18",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 420,
+          "height": 280
+        }
+      ],
+      "sha256": "ad59a43ec76656beccdd4dd38e2ee2319325c62b25dfbd145edf90c35fa6fac0",
+      "pixels": [
+        420,
+        280
+      ],
+      "bytes": 5744,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/107/q19-official.png",
+      "uses": [
+        {
+          "id": "cap-107-nature-19",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 380,
+          "height": 390
+        }
+      ],
+      "sha256": "b79deda73d43588efdd9eb23db6abb2f0c7d5348838375fb1b96dee6c7dd6be6",
+      "pixels": [
+        380,
+        390
+      ],
+      "bytes": 48072,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/107/q26-official.png",
+      "uses": [
+        {
+          "id": "cap-107-nature-26",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 484,
+          "height": 474
+        }
+      ],
+      "sha256": "e1366d9fd0623aa5e0800b6df445d3cbcd760ab9918508d2998b40f83583483b",
+      "pixels": [
+        484,
+        474
+      ],
+      "bytes": 33910,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-107-nature-28--figure.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-28",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 614,
+          "height": 408
+        }
+      ],
+      "sha256": "8012c8dfb8db1283fd3f3147f6f6a952a136b2894bbe7049a8c099f30f41ff74",
+      "pixels": [
+        614,
+        408
+      ],
+      "bytes": 16928,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/107/q37-official.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-37",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1222,
+          "height": 1287
+        }
+      ],
+      "sha256": "3987c1dbd8c969210b4009e25a070d193390ba2a01fdee5c9ef93bed584d6be6",
+      "pixels": [
+        1222,
+        1287
+      ],
+      "bytes": 324188,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-107-nature-41--figure.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-41",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 390,
+          "height": 260
+        }
+      ],
+      "sha256": "5794cad9a012176a8a84908df848f02c1c131cb8f34a5058b7f8c70713496830",
+      "pixels": [
+        390,
+        260
+      ],
+      "bytes": 6196,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "甲三層、乙四層相符；上方殘留題幹、底部圖號裁切。",
+        "reference": "wordml02000001jpg12200.jpg",
+        "paragraph": 320
+      }
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-107-nature-46--figure.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-46",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 511
+        }
+      ],
+      "sha256": "acd4fb4e102170dc259e06ed3b41e42a1c266c38b9e80b390078abe1995582c0",
+      "pixels": [
+        1200,
+        511
+      ],
+      "bytes": 29246,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-107-nature-group-49-50--shared.webp",
+      "uses": [
+        {
+          "id": "cap-107-nature-49",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 480,
+          "height": 285
+        },
+        {
+          "id": "cap-107-nature-50",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 480,
+          "height": 285
+        }
+      ],
+      "sha256": "cc0be16803dd372259bc355771f8d49b42f0e127821d0aa7b7b5293d98404605",
+      "pixels": [
+        480,
+        285
+      ],
+      "bytes": 16136,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-108-nature-17--figure.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-17",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 280,
+          "height": 245
+        }
+      ],
+      "sha256": "ce40258477524fbaa879f0de790825918378abb603ecbe380091d3705fbf7c57",
+      "pixels": [
+        280,
+        245
+      ],
+      "bytes": 7080,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/108/q37-official.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-37",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 254,
+          "height": 344
+        }
+      ],
+      "sha256": "cdd553dfaab4e6564c64a8b8c13258f80e2f56bce7e6371d1850e9f876f01c2f",
+      "pixels": [
+        254,
+        344
+      ],
+      "bytes": 8334,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-108-nature-40--figure.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-40",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 625,
+          "height": 550
+        }
+      ],
+      "sha256": "d249f4633516460a1446edc5e1fc39068d3e92e94c2ad01508c69e9aa87ef5db",
+      "pixels": [
+        625,
+        550
+      ],
+      "bytes": 23918,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/108/q41-official.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-41",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 378,
+          "height": 521
+        }
+      ],
+      "sha256": "e734181cede895d0363b3c81d142cc40b98a91f0e01df7b988315bfd26d41557",
+      "pixels": [
+        378,
+        521
+      ],
+      "bytes": 15756,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/108/q45-official.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-45",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 570,
+          "height": 280
+        }
+      ],
+      "sha256": "af307bfbd85e7557ad1541e1f3e06af0bf014db5505c09dc65dda47d714fc140",
+      "pixels": [
+        570,
+        280
+      ],
+      "bytes": 4138,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-108-nature-group-51-52--shared.webp",
+      "uses": [
+        {
+          "id": "cap-108-nature-51",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 880,
+          "height": 230
+        },
+        {
+          "id": "cap-108-nature-52",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 880,
+          "height": 230
+        }
+      ],
+      "sha256": "a3d879ee0398876dced61d3ab117921338737ba85a67067f5df0e7f927fa7095",
+      "pixels": [
+        880,
+        230
+      ],
+      "bytes": 18832,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/109/q03-official.png",
+      "uses": [
+        {
+          "id": "cap-109-nature-3",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 285,
+          "height": 142
+        }
+      ],
+      "sha256": "45657ade0d4bd65bf9061b161118e27ff91c867fea474e3cebd50874d9eed9c1",
+      "pixels": [
+        285,
+        142
+      ],
+      "bytes": 8183,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-109-nature-4--figure.webp",
+      "uses": [
+        {
+          "id": "cap-109-nature-4",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 365,
+          "height": 210
+        }
+      ],
+      "sha256": "2e32f89dbdb13453670082879aae0e7424d107629d96a2e57b30a2e0ae7cd31b",
+      "pixels": [
+        365,
+        210
+      ],
+      "bytes": 11650,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/109/q05-official.png",
+      "uses": [
+        {
+          "id": "cap-109-nature-5",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 529,
+          "height": 372
+        }
+      ],
+      "sha256": "1d1485e407a4b03af326f6e8f18c2346e4c2d852d6b30c20fd470757223ca0dc",
+      "pixels": [
+        529,
+        372
+      ],
+      "bytes": 44534,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-109-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "cap-109-nature-6",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1134,
+          "height": 1200
+        }
+      ],
+      "sha256": "147592dc93b207e24f014a7fb12c976b8e01f016bf9ae04e4c8563a563cf42a5",
+      "pixels": [
+        1134,
+        1200
+      ],
+      "bytes": 50126,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/109/q18-view-options.png",
+      "uses": [
+        {
+          "id": "cap-109-nature-18",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 1050,
+          "height": 275
+        }
+      ],
+      "sha256": "7e4294d0da5926f7159570efadb82afc5fc41d8b02e49e8e2dca6d361f254749",
+      "pixels": [
+        1050,
+        275
+      ],
+      "bytes": 5740,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/cap-109-nature-19--figure.png",
+      "uses": [
+        {
+          "id": "cap-109-nature-19",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 770,
+          "height": 305
+        }
+      ],
+      "sha256": "49ad1f6e416f9a35c8d466182a82b1fe270bac911e096a97159b3d3c585e707e",
+      "pixels": [
+        770,
+        305
+      ],
+      "bytes": 16418,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-109-nature-28--figure.webp",
+      "uses": [
+        {
+          "id": "cap-109-nature-28",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 390,
+          "height": 255
+        }
+      ],
+      "sha256": "d414e2f9e51f90ec9083a131ca9ebdb41496cdd68deab0cfc53f907a4e946b73",
+      "pixels": [
+        390,
+        255
+      ],
+      "bytes": 10904,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/109/q41-official.png",
+      "uses": [
+        {
+          "id": "cap-109-nature-41",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 875,
+          "height": 310
+        }
+      ],
+      "sha256": "e6cd263d0aa83400b404fc3385308cbd0b7a98a4123ea40427405f33ccd64e3c",
+      "pixels": [
+        875,
+        310
+      ],
+      "bytes": 18382,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-109-nature-group-50-51--shared.webp",
+      "uses": [
+        {
+          "id": "cap-109-nature-50",
+          "chapter": "classification",
+          "field": "questionGroup.sharedFigure",
+          "width": 744,
+          "height": 249
+        },
+        {
+          "id": "cap-109-nature-51",
+          "chapter": "classification",
+          "field": "questionGroup.sharedFigure",
+          "width": 744,
+          "height": 249
+        }
+      ],
+      "sha256": "276f2c49511dde5875d86533ae291ca53a596ae4e9e9db096b8265a93f811bfa",
+      "pixels": [
+        744,
+        249
+      ],
+      "bytes": 17830,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/110/q07-experiment-data.png",
+      "uses": [
+        {
+          "id": "cap-110-nature-7",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 970,
+          "height": 555
+        }
+      ],
+      "sha256": "eab7b486b1de18843c2ff7807afb76ea63ac38d9444e9e0d74e9b2423c39826c",
+      "pixels": [
+        970,
+        555
+      ],
+      "bytes": 111996,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/110/q11-official.png",
+      "uses": [
+        {
+          "id": "cap-110-nature-11",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1851,
+          "height": 850
+        }
+      ],
+      "sha256": "e7e544d6da15e78964723e121acd516e8b190fa7135a209c2fea5ac97dd2a7ad",
+      "pixels": [
+        1851,
+        850
+      ],
+      "bytes": 1155530,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/cap-110-nature-19--figure.webp",
+      "uses": [
+        {
+          "id": "cap-110-nature-19",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 560,
+          "height": 440
+        }
+      ],
+      "sha256": "4b00329fccbd5864be0d68494ced7ed08edbd76dab8d88cdeade11a4d374e1fb",
+      "pixels": [
+        560,
+        440
+      ],
+      "bytes": 9394,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-110-nature-28--figure.png",
+      "uses": [
+        {
+          "id": "cap-110-nature-28",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 675,
+          "height": 125
+        }
+      ],
+      "sha256": "2309de4e9b950105a330c27af005f65f0cfdf36576eb59268fc5b950a8cff2f0",
+      "pixels": [
+        675,
+        125
+      ],
+      "bytes": 9271,
+      "format": "png",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/cap-110-nature-31--figure.webp",
+      "uses": [
+        {
+          "id": "cap-110-nature-31",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 415,
+          "height": 285
+        }
+      ],
+      "sha256": "c832ef29302aa99685ea98aef38589e50bef2d1640bb5e5a87cfa014ca531a69",
+      "pixels": [
+        415,
+        285
+      ],
+      "bytes": 9892,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/cap-110-nature-36--figure.webp",
+      "uses": [
+        {
+          "id": "cap-110-nature-36",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 310,
+          "height": 315
+        }
+      ],
+      "sha256": "c22afa1bf500b0d79f68f907d07642685a4fefcdc03d64782d32ee2ab153d9ce",
+      "pixels": [
+        310,
+        315
+      ],
+      "bytes": 7114,
+      "format": "webp",
+      "reviewStatus": "matched-publisher",
+      "review": {
+        "status": "matched-publisher",
+        "note": "逐線比對甲→戊／丙、乙→丁／丙、丁→戊／庚、戊→己／庚、丙→己、己→庚相符。",
+        "reference": "wordml02000001jpg13300.jpg",
+        "paragraph": 353
+      }
+    },
+    {
+      "src": "/questions/refined/unit-03/cap-110-nature-42--figure.webp",
+      "uses": [
+        {
+          "id": "cap-110-nature-42",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1190,
+          "height": 310
+        }
+      ],
+      "sha256": "74e89ea480c13d6aeeff89a93470eefe5f5849248e71ba9119f6b94025ddc7ab",
+      "pixels": [
+        1190,
+        310
+      ],
+      "bytes": 16150,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/cap-110-nature-group-48-49--shared.webp",
+      "uses": [
+        {
+          "id": "cap-110-nature-48",
+          "chapter": "evolution",
+          "field": "questionGroup.sharedFigure",
+          "width": 800,
+          "height": 350
+        },
+        {
+          "id": "cap-110-nature-49",
+          "chapter": "evolution",
+          "field": "questionGroup.sharedFigure",
+          "width": 800,
+          "height": 350
+        }
+      ],
+      "sha256": "3e31650c18febeba1fdbea889ce5a277f039f457e8503e12641eb056ac1196a1",
+      "pixels": [
+        800,
+        350
+      ],
+      "bytes": 24610,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/cap-103-hormone-experiment--shared.webp",
+      "uses": [
+        {
+          "id": "cap-103-nature-47",
+          "chapter": "homeostasis",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 400
+        },
+        {
+          "id": "cap-103-nature-48",
+          "chapter": "homeostasis",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 400
+        }
+      ],
+      "sha256": "ff774fa7602454123efce6fe9f9e7f792df085bbabe0b41d55ed7b682e23f840",
+      "pixels": [
+        1200,
+        400
+      ],
+      "bytes": 36706,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/103/q47-hormone-charts.webp",
+      "uses": [
+        {
+          "id": "cap-103-nature-47",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 2172,
+          "height": 724
+        }
+      ],
+      "sha256": "d6f7c6f5194c374c0f2a4980ba70244a1eea2e8c1328699649da43890526e567",
+      "pixels": [
+        2172,
+        724
+      ],
+      "bytes": 284830,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/97/q10-photosynthesis-temperature.webp",
+      "uses": [
+        {
+          "id": "basic-97-first-nature-10",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "sha256": "02bc1ff4049dbaf0998745d39776bf870116cea67a02ecaa0b541b02762be7a2",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "bytes": 354232,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/97/q25-microscope-wing-figures.webp",
+      "uses": [
+        {
+          "id": "basic-97-first-nature-25",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 480,
+          "height": 285
+        }
+      ],
+      "sha256": "2cca2bfba7914d696c9d5d79cb31af0ce3beb562d51cc0cfb93c6fe40508489b",
+      "pixels": [
+        480,
+        285
+      ],
+      "bytes": 31980,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-97-first-nature-29--figure.webp",
+      "uses": [
+        {
+          "id": "basic-97-first-nature-29",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 300,
+          "height": 420
+        }
+      ],
+      "sha256": "78039a7f30878c4186f684759a4d25d2d719dd0d7f552feed97e1c6051f607a4",
+      "pixels": [
+        300,
+        420
+      ],
+      "bytes": 9990,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/97/q58-rice-nutrition-table.webp",
+      "uses": [
+        {
+          "id": "basic-97-first-nature-58",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 2163,
+          "height": 727
+        }
+      ],
+      "sha256": "ce70684f7036750b98fb04f0c83fdc9c97c929f24914f7877a44244cb9cca8ab",
+      "pixels": [
+        2163,
+        727
+      ],
+      "bytes": 314890,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/q01-enzyme-ph.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-1",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1791,
+          "height": 878
+        }
+      ],
+      "sha256": "9aaf3c3e6eff26b61189d925a11ee74469f940b51a3c297331391f7227726b25",
+      "pixels": [
+        1791,
+        878
+      ],
+      "bytes": 302462,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/q07-oxygen-graph.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-7",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 400,
+          "height": 215
+        }
+      ],
+      "sha256": "e71c96370e99a89c78f06f90baa8abcbe134a11764bce3cff077ebb26e09d5a2",
+      "pixels": [
+        400,
+        215
+      ],
+      "bytes": 2456,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-98-first-nature-9--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-9",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 440,
+          "height": 470
+        }
+      ],
+      "sha256": "46f818e0d4e868cb448fae0f3b2ed270ec15f169a93652b0289129751a741f0b",
+      "pixels": [
+        440,
+        470
+      ],
+      "bytes": 9602,
+      "format": "webp",
+      "reviewStatus": "matched-publisher",
+      "review": {
+        "status": "matched-publisher",
+        "note": "草與鹿、老鼠、蝗蟲及浣熊／蟾蜍／狼／蛇的各條箭頭相符。",
+        "reference": "wordml02000001jpg20700.jpg",
+        "paragraph": 524
+      }
+    },
+    {
+      "src": "/questions/98/q27-plant-water-transport.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-27",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1642,
+          "height": 958
+        }
+      ],
+      "sha256": "9713992326998c44be05eafb76d8a50cb0c8ef476a34f852bce8eaa9e8a60c4b",
+      "pixels": [
+        1642,
+        958
+      ],
+      "bytes": 396656,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/q28-vessel-oxygen.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-28",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 449,
+          "height": 399
+        }
+      ],
+      "sha256": "2cd5fe99e70581176007d267418e58ec7ecb5113b86139df1777c5d971eaaa19",
+      "pixels": [
+        449,
+        399
+      ],
+      "bytes": 5824,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/q48-membrane-bags.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-48",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1374,
+          "height": 1145
+        }
+      ],
+      "sha256": "a8a83c672c52c1814907537ea0965617254bbf3b58263f31385eb62365c7aa56",
+      "pixels": [
+        1374,
+        1145
+      ],
+      "bytes": 371284,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-98-moth-selection--shared.webp",
+      "uses": [
+        {
+          "id": "basic-98-first-nature-55",
+          "chapter": "evolution",
+          "field": "questionGroup.sharedFigure",
+          "width": 1691,
+          "height": 930
+        },
+        {
+          "id": "basic-98-first-nature-56",
+          "chapter": "evolution",
+          "field": "questionGroup.sharedFigure",
+          "width": 1691,
+          "height": 930
+        }
+      ],
+      "sha256": "fa0fc56988ef0e1f5e74004f82273dcb8ffcdcf188c4b9e88e5000d85b3f5403",
+      "pixels": [
+        1691,
+        930
+      ],
+      "bytes": 311502,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-99-first-nature-1--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-1",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1268,
+          "height": 1241
+        }
+      ],
+      "sha256": "81f3549387e3a195e0a9c8c41c50cdce6672a5d66efeaf71b197949cda3495fb",
+      "pixels": [
+        1268,
+        1241
+      ],
+      "bytes": 452842,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/q02-mitochondria-table.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-2",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 2172,
+          "height": 724
+        }
+      ],
+      "sha256": "1f1a4a37e60891d7e0178e7e6bbcd0b1e1ea14afb5e37698c3cfdb956397f3d2",
+      "pixels": [
+        2172,
+        724
+      ],
+      "bytes": 292286,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-99-first-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-8",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 225,
+          "height": 310
+        }
+      ],
+      "sha256": "336f565713c0f6062501fe410b2819a4815a4916b41d0bf6c78a1c9b8954037a",
+      "pixels": [
+        225,
+        310
+      ],
+      "bytes": 4632,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/q11-nutrition-label.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-11",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 390,
+          "height": 315
+        }
+      ],
+      "sha256": "f5cd16905e0be8d3ab6e7413ec69b605f294d63ae8909651f76e2a8f774cbe12",
+      "pixels": [
+        390,
+        315
+      ],
+      "bytes": 7258,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-99-first-nature-12--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-12",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 804
+        }
+      ],
+      "sha256": "3224822744ecbb9bf1265f7a20fc6558486eb10e00cdafce7d0142498b031b33",
+      "pixels": [
+        1200,
+        804
+      ],
+      "bytes": 46990,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/q13-ecosystem-ph.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-13",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1539,
+          "height": 1022
+        }
+      ],
+      "sha256": "0af8433b3a3caa853ab6950b4b5ff3bca6f87a855ef0060e7f84fc46fe1558f6",
+      "pixels": [
+        1539,
+        1022
+      ],
+      "bytes": 372552,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-99-first-nature-26--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-26",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 2086,
+          "height": 754
+        }
+      ],
+      "sha256": "de4aae2cfc321791b59ab5922836f798a7a994f7fef6096e3f63a0162cacb2da",
+      "pixels": [
+        2086,
+        754
+      ],
+      "bytes": 415732,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/q28-plant-transport.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-28",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1016,
+          "height": 1548
+        }
+      ],
+      "sha256": "7173eb192157780e818ba4324cccaf4f3f7f834916830ba47ecd8a02a8bcb986",
+      "pixels": [
+        1016,
+        1548
+      ],
+      "bytes": 409078,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-99-first-nature-29--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-29",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 500,
+          "height": 425
+        }
+      ],
+      "sha256": "0d2ea0675e9097fa751583073ff31746d1df875333c372a6b27b12ee9e0ed71e",
+      "pixels": [
+        500,
+        425
+      ],
+      "bytes": 7814,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-99-first-nature-30--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-30",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 300,
+          "height": 420
+        }
+      ],
+      "sha256": "7e088f814c20bca9c8d14074eeabc19575e62dd2f773a7a6e1253829eb394bde",
+      "pixels": [
+        300,
+        420
+      ],
+      "bytes": 7072,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "能量箭頭及甲乙丙丁相符；太陽外緣上方略裁切，未損解題資訊。",
+        "reference": "wordml02000001jpg23700.jpg",
+        "paragraph": 612
+      }
+    },
+    {
+      "src": "/questions/99/q47-membrane-experiment.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-47",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 405,
+          "height": 395
+        }
+      ],
+      "sha256": "b7747273b939abe302970b8ae2a5fdcf3963a5ccf4fbbb5274e76e4510454508",
+      "pixels": [
+        405,
+        395
+      ],
+      "bytes": 11166,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-99-first-nature-48--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-first-nature-48",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1545,
+          "height": 1018
+        }
+      ],
+      "sha256": "3900ba122d018fd4f0ae5ae2d3c81827a1711ae5de303463b257084a027dd914",
+      "pixels": [
+        1545,
+        1018
+      ],
+      "bytes": 387324,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-100-first-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-6",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 783
+        }
+      ],
+      "sha256": "7123b2e390a29a497efd2ed648e21fc1fbd080f905b242413cc654e7ec47c0bb",
+      "pixels": [
+        1200,
+        783
+      ],
+      "bytes": 52638,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-100-first-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-7",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1640,
+          "height": 959
+        }
+      ],
+      "sha256": "83a3d105d3b65d21a69a9dd35fb6b1373cf5d2e1da14a4918e5967f078df7433",
+      "pixels": [
+        1640,
+        959
+      ],
+      "bytes": 350448,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-100-first-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-8",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1200,
+          "height": 335
+        }
+      ],
+      "sha256": "f9d690d194fa5279461e729252dbc62af6dd38a07de8c3c31ce4f90a7d749f08",
+      "pixels": [
+        1200,
+        335
+      ],
+      "bytes": 42160,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/basic-100-first-nature-9--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-9",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 1497,
+          "height": 1051
+        }
+      ],
+      "sha256": "5d5eb1bf7d71ab1c7fc406340ce3748f9acf0595238fc3ce0ab3d0f0c5285c97",
+      "pixels": [
+        1497,
+        1051
+      ],
+      "bytes": 445026,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/q15-transpiration.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-15",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 394,
+          "height": 344
+        }
+      ],
+      "sha256": "a395f61eb7c0bc999cc8e14ccf2b27475ab5809c3fd84f2a3c9ea52b9a8b8551",
+      "pixels": [
+        394,
+        344
+      ],
+      "bytes": 8236,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-100-first-nature-17--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-17",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 537
+        }
+      ],
+      "sha256": "bbbe20e5c293fd50ad92049e412a0c7f10694bbaf20327445f1a7b75c4c96463",
+      "pixels": [
+        1200,
+        537
+      ],
+      "bytes": 32828,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-100-first-nature-25--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-25",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1821,
+          "height": 864
+        }
+      ],
+      "sha256": "66ce594f8d50b963cb36bd2b15b955178369f5643fc99ec3f6df5f2b99339fad",
+      "pixels": [
+        1821,
+        864
+      ],
+      "bytes": 388112,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/q26-vessel-pressure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-26",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1468,
+          "height": 1071
+        }
+      ],
+      "sha256": "0061700b5bcd2eb4e71905e92c29dc640c8748c7190fc8c7fa7257d6c91ccec3",
+      "pixels": [
+        1468,
+        1071
+      ],
+      "bytes": 299948,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-100-first-nature-44--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-44",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1568,
+          "height": 1003
+        }
+      ],
+      "sha256": "c9907e14a8a39200d3bd69b7a9c8f1a24134a8c14fed1b216d4f39719ae59503",
+      "pixels": [
+        1568,
+        1003
+      ],
+      "bytes": 332200,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/q52-blood-microscope.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-52",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 254,
+          "height": 269
+        }
+      ],
+      "sha256": "06a7a2a0947e8c5850c8eb8b0cc8e7fde53664e94287028951f24efefa47c2fd",
+      "pixels": [
+        254,
+        269
+      ],
+      "bytes": 3328,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-100-pancreas-extract--shared.webp",
+      "uses": [
+        {
+          "id": "basic-100-first-nature-53",
+          "chapter": "homeostasis",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 572
+        },
+        {
+          "id": "basic-100-first-nature-54",
+          "chapter": "homeostasis",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 572
+        }
+      ],
+      "sha256": "e31ac1461299dc783252742b1145a5da67df36d399f1155e8c6df73d6e6c42d3",
+      "pixels": [
+        1200,
+        572
+      ],
+      "bytes": 48232,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/second-q06-official.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-6",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1350,
+          "height": 1165
+        }
+      ],
+      "sha256": "1b5f577c32421cca0636878e2b29e738722d87a8f6e6b147ce271847ce0f5f6e",
+      "pixels": [
+        1350,
+        1165
+      ],
+      "bytes": 319194,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-98-second-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-7",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 315,
+          "height": 250
+        }
+      ],
+      "sha256": "261948fb37a8b64c450206a0d026a89c4accdbf95a0e6b9849a467eb3f3fb6a3",
+      "pixels": [
+        315,
+        250
+      ],
+      "bytes": 5962,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-02/basic-98-second-nature-9--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-9",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 1200,
+          "height": 616
+        }
+      ],
+      "sha256": "4f353e09739a94fcd042a57c664d09703a7b2dbb2aa85b5c6efedb7365a3ec6e",
+      "pixels": [
+        1200,
+        616
+      ],
+      "bytes": 58498,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/98/second-q11-official.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-11",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 414,
+          "height": 339
+        }
+      ],
+      "sha256": "afee9573af3ead971ac5cb111c4d36e3689065013baaeb63e7bf905eac48876f",
+      "pixels": [
+        414,
+        339
+      ],
+      "bytes": 7850,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-98-second-nature-23--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-23",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 215,
+          "height": 205
+        }
+      ],
+      "sha256": "e92bf2b267153cd8edea92ce1e954d5cf18d59ae40aee68d0dfef4527f3b71b0",
+      "pixels": [
+        215,
+        205
+      ],
+      "bytes": 4994,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-98-second-nature-25--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-25",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 743
+        }
+      ],
+      "sha256": "ef9c56560198e49cb923ee4e30943c3dd9c602910b02357d21be76104807c592",
+      "pixels": [
+        1200,
+        743
+      ],
+      "bytes": 20082,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-98-second-nature-27--figure.webp",
+      "uses": [
+        {
+          "id": "basic-98-second-nature-27",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1415,
+          "height": 1112
+        }
+      ],
+      "sha256": "4c4931a0a80029f24e93878cd11e1841c0a9ee26d747122ddef8d471e589d9dd",
+      "pixels": [
+        1415,
+        1112
+      ],
+      "bytes": 483388,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-97-second-nature-27--figure.webp",
+      "uses": [
+        {
+          "id": "basic-97-second-nature-27",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 290,
+          "height": 340
+        }
+      ],
+      "sha256": "3fe6a45027973dc51da2db26e2c573bbf726189af34264c439ec4b7970f8c7b9",
+      "pixels": [
+        290,
+        340
+      ],
+      "bytes": 11278,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-97-second-cat-breeding--shared.webp",
+      "uses": [
+        {
+          "id": "basic-97-second-nature-54",
+          "chapter": "genetics",
+          "field": "questionGroup.sharedFigure",
+          "width": 1854,
+          "height": 848
+        },
+        {
+          "id": "basic-97-second-nature-55",
+          "chapter": "genetics",
+          "field": "questionGroup.sharedFigure",
+          "width": 1854,
+          "height": 848
+        }
+      ],
+      "sha256": "ce1f9d708c579b6a5210b875a9205ad2974f34f300df829fc57f85c30d76d151",
+      "pixels": [
+        1854,
+        848
+      ],
+      "bytes": 292582,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/basic-99-second-nature-1--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-1",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 2172,
+          "height": 724
+        }
+      ],
+      "sha256": "7264f83eeac59062f74b95afeb35d2adbaf296d1438f54d10108b1c9e563aef5",
+      "pixels": [
+        2172,
+        724
+      ],
+      "bytes": 286784,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/basic-99-second-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-6",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 2117,
+          "height": 743
+        }
+      ],
+      "sha256": "0456da0ba24548ddb451fa30d3dc7771cdad525d4581764de315619c5140bc16",
+      "pixels": [
+        2117,
+        743
+      ],
+      "bytes": 277388,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-99-second-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-7",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 235,
+          "height": 205
+        }
+      ],
+      "sha256": "120f1bc0e9e3a0b56d209f323e74a14fe5255d45437fd5bc1e5a42ce305b77ae",
+      "pixels": [
+        235,
+        205
+      ],
+      "bytes": 2858,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "上至下甲乙丙丁相符；塔底邊裁掉、上方殘留文字，宜恢復完整邊框。",
+        "reference": "wordml02000001jpg9800.jpg",
+        "paragraph": 248
+      }
+    },
+    {
+      "src": "/questions/99/second-q09-official.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-9",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1760,
+          "height": 894
+        }
+      ],
+      "sha256": "0f921d94ed7de967544ac6e449acf251f75d8d88540090646de5004d822eee65",
+      "pixels": [
+        1760,
+        894
+      ],
+      "bytes": 283812,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-99-second-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-10",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 340,
+          "height": 235
+        }
+      ],
+      "sha256": "eed2f0832e5021a83327f81869784c5bad3b6bc74110262bc6c95958f1eeaf09",
+      "pixels": [
+        340,
+        235
+      ],
+      "bytes": 10134,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/second-q24-official.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-24",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1720,
+          "height": 914
+        }
+      ],
+      "sha256": "f514d323cc853d566da8be5b5de09e78aaf75add56c229bfa06929bf4889476f",
+      "pixels": [
+        1720,
+        914
+      ],
+      "bytes": 335106,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-99-second-nature-26--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-26",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 410,
+          "height": 160
+        }
+      ],
+      "sha256": "e910a9e04ca8473c76e8ea014ae8235b37f90091f89260c173f2d321e7bd6211",
+      "pixels": [
+        410,
+        160
+      ],
+      "bytes": 7350,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/second-q27-views.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-27",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 340,
+          "height": 250
+        }
+      ],
+      "sha256": "0a09a985b65e3805c3a83e3d90fea617ad17d738aee0d710c7a65e3574a7c31f",
+      "pixels": [
+        340,
+        250
+      ],
+      "bytes": 5022,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-99-second-nature-49--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-49",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 2094,
+          "height": 751
+        }
+      ],
+      "sha256": "bd42c91a86598b54ccbfc4a2380485d503f28c1219c7e8aa775a430764261eaf",
+      "pixels": [
+        2094,
+        751
+      ],
+      "bytes": 396876,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-99-second-nature-50--figure.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-50",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 390,
+          "height": 360
+        }
+      ],
+      "sha256": "6fde14dd68e5e13f6abd5b64529b511526f3605256f0e2541a181b6fb4c523c5",
+      "pixels": [
+        390,
+        360
+      ],
+      "bytes": 9408,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/99/second-group-55-56-official.webp",
+      "uses": [
+        {
+          "id": "basic-99-second-nature-55",
+          "chapter": "nutrition-and-energy",
+          "field": "questionGroup.sharedFigure",
+          "width": 1420,
+          "height": 965
+        },
+        {
+          "id": "basic-99-second-nature-56",
+          "chapter": "nutrition-and-energy",
+          "field": "questionGroup.sharedFigure",
+          "width": 1420,
+          "height": 965
+        }
+      ],
+      "sha256": "0f97c7a53d29e416c040c33f1232dc8d79bca656c5bd5b5bbee69f8f7022550f",
+      "pixels": [
+        1420,
+        965
+      ],
+      "bytes": 406220,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-100-second-nature-1--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-1",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 330,
+          "height": 315
+        }
+      ],
+      "sha256": "cf812b89f86c7c1c459cce11ef321a81ec9726224bc5a781140bffb342540a31",
+      "pixels": [
+        330,
+        315
+      ],
+      "bytes": 15014,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/second-q05-official.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-5",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 2169,
+          "height": 725
+        }
+      ],
+      "sha256": "7a4b6605e573f31fbb86787931dd7652468e99f4a8c0267e593ac2e8735fac47",
+      "pixels": [
+        2169,
+        725
+      ],
+      "bytes": 330882,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/second-q07-official.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-7",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 405,
+          "height": 320
+        }
+      ],
+      "sha256": "3cfd1b1075fc139c694a857cee2f335f0af314f1bec8ab1f8178f9b0e76741f1",
+      "pixels": [
+        405,
+        320
+      ],
+      "bytes": 6204,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/basic-100-second-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-10",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 1565,
+          "height": 1005
+        }
+      ],
+      "sha256": "aa2ed5d966979badaf5243f0abed25219d53d7df054ccf2526e1dfcf43e27842",
+      "pixels": [
+        1565,
+        1005
+      ],
+      "bytes": 315634,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-100-second-nature-11--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-11",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 270,
+          "height": 225
+        }
+      ],
+      "sha256": "628a5b14995374d22c1be786f7ecd91e20d8af28b2f3c98f53c6e2cd62c8785e",
+      "pixels": [
+        270,
+        225
+      ],
+      "bytes": 2488,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-100-second-nature-21--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-21",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1766,
+          "height": 592
+        }
+      ],
+      "sha256": "caafa56b2a694baaa7af6261528f9c634165825e2f4802564224b4356fd22ff5",
+      "pixels": [
+        1766,
+        592
+      ],
+      "bytes": 228566,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-100-second-nature-22--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-22",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1207,
+          "height": 1303
+        }
+      ],
+      "sha256": "7ad99289ad6399e6ea659ff17903888fb56fe48456cc214ca2311acbad9a96a8",
+      "pixels": [
+        1207,
+        1303
+      ],
+      "bytes": 309288,
+      "format": "webp",
+      "reviewStatus": "presentation-issue",
+      "review": {
+        "status": "presentation-issue",
+        "note": "甲乙丙層級相符，但新版漏掉右側『上／下』方向指示。未顛倒答案，仍建議補回。",
+        "reference": "wordml02000001jpg22200.jpg",
+        "paragraph": 569
+      }
+    },
+    {
+      "src": "/questions/100/second-q26-official.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-26",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 394,
+          "height": 389
+        }
+      ],
+      "sha256": "f5974086a44c14ae749973bec75e86522ff411df63e1a07e81e72772eab6e1f8",
+      "pixels": [
+        394,
+        389
+      ],
+      "bytes": 7890,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/second-q27-official.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-27",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1759,
+          "height": 655
+        }
+      ],
+      "sha256": "376d1f5b7dc07ce71a804b98a0380be16b0ff09868abfb13b9f8ce5f8a9abcbc",
+      "pixels": [
+        1759,
+        655
+      ],
+      "bytes": 240510,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-100-second-nature-31--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-31",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1686,
+          "height": 933
+        }
+      ],
+      "sha256": "29220f40dc8a94a884b12f7bf26efe7f546833b306442b487a89fbd983615afa",
+      "pixels": [
+        1686,
+        933
+      ],
+      "bytes": 285578,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/100/second-q45-official.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-45",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1656,
+          "height": 950
+        }
+      ],
+      "sha256": "82784681655a8685e14e578d57fc334a807cf952760eb7feac5a11c6983fc3a9",
+      "pixels": [
+        1656,
+        950
+      ],
+      "bytes": 332512,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-100-second-nature-55--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-55",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 280,
+          "height": 255
+        }
+      ],
+      "sha256": "45b53337bb8d53497b26360caf20f3aa3c1abbcc64a91ddeabcc72341e86c4f8",
+      "pixels": [
+        280,
+        255
+      ],
+      "bytes": 4664,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-100-second-nature-56--figure.webp",
+      "uses": [
+        {
+          "id": "basic-100-second-nature-56",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1161,
+          "height": 1200
+        }
+      ],
+      "sha256": "c94d7076afb7d4aa444db332f1e78914ba3a0fa89d6223bb252f447179f97ce1",
+      "pixels": [
+        1161,
+        1200
+      ],
+      "bytes": 43674,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-101-first-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-8",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 1067
+        }
+      ],
+      "sha256": "b0849c7bf9ad469d47884b9111a651a76492d86bb12d8be645d2df685b77a164",
+      "pixels": [
+        1200,
+        1067
+      ],
+      "bytes": 48086,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-101-first-nature-15--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-15",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1608,
+          "height": 978
+        }
+      ],
+      "sha256": "d832294be3bbb5281bdf360e6b4c6630e474e10cdfa5840302d8f9fe2fcb5dfc",
+      "pixels": [
+        1608,
+        978
+      ],
+      "bytes": 354296,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-101-first-nature-16--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-16",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 300,
+          "height": 410
+        }
+      ],
+      "sha256": "407755b1ecab534d424955edb89075dc7e7d6906470591ea3c8e3e04d9849818",
+      "pixels": [
+        300,
+        410
+      ],
+      "bytes": 10406,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/101/q18-vein-tourniquet.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-18",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 404,
+          "height": 269
+        }
+      ],
+      "sha256": "33d5cbf13e377ba6db7460b45fc96fabe61d6798e39f9197f4773b0058cf6b0d",
+      "pixels": [
+        404,
+        269
+      ],
+      "bytes": 6428,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-101-first-nature-24--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-24",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1422,
+          "height": 1106
+        }
+      ],
+      "sha256": "5724faf78f5452b6dcb5b75f3ec1ad098270335ee09d238563c7a6f646fbd94a",
+      "pixels": [
+        1422,
+        1106
+      ],
+      "bytes": 296964,
+      "format": "webp",
+      "reviewStatus": "matched-publisher",
+      "review": {
+        "status": "matched-publisher",
+        "note": "甲乙丙丁遞增、總能量軸大小、階層文字相符；填色改空心不改題意。",
+        "reference": "wordml02000001jpg22700.jpg",
+        "paragraph": 584
+      }
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-101-first-nature-27--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-27",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 385,
+          "height": 350
+        }
+      ],
+      "sha256": "4abf4b00533f1cb484c2459864190989aa4dd7569a98150ad48a8a486a653cb4",
+      "pixels": [
+        385,
+        350
+      ],
+      "bytes": 15836,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-101-first-nature-44--figure.webp",
+      "uses": [
+        {
+          "id": "basic-101-first-nature-44",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 460,
+          "height": 280
+        }
+      ],
+      "sha256": "f6a6c16e9855abb4371e8f9790f50a059804b1923ffe1877f531d10d7c2f5453",
+      "pixels": [
+        460,
+        280
+      ],
+      "bytes": 13862,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-102-first-nature-4--figure.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-4",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 415,
+          "height": 300
+        }
+      ],
+      "sha256": "26c8409b22e7a3c8852fa5c05bbb7d5d398880159eb91a8a3bfa895ca681d73e",
+      "pixels": [
+        415,
+        300
+      ],
+      "bytes": 17184,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-102-first-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-8",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1395,
+          "height": 1127
+        }
+      ],
+      "sha256": "dd10ee5c9dd5aa5b74eedc5f35524d42d1661e65cf2d2b417e9c292424746e97",
+      "pixels": [
+        1395,
+        1127
+      ],
+      "bytes": 395270,
+      "format": "webp",
+      "reviewStatus": "matched-publisher",
+      "review": {
+        "status": "matched-publisher",
+        "note": "矽藻→蝦，蝦→鯨魚／海鳥／烏賊／海豹，烏賊→海鳥／企鵝相符；海豹繪製風格不同，未更動標示與連線。",
+        "reference": "wordml02000001jpg22800.jpg",
+        "paragraph": 587
+      }
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-102-first-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-10",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1200,
+          "height": 1006
+        }
+      ],
+      "sha256": "0ea6beafb1685582812f06c2cc6e1f9a2516c7d8cfaaa0074be77a9534496104",
+      "pixels": [
+        1200,
+        1006
+      ],
+      "bytes": 105574,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-09/basic-102-first-nature-11--figure.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-11",
+          "chapter": "evolution",
+          "field": "figure",
+          "width": 2167,
+          "height": 726
+        }
+      ],
+      "sha256": "c4b1058c005ec8fa76ce8a6b1acd71396c29115929e83e11f947344071087c44",
+      "pixels": [
+        2167,
+        726
+      ],
+      "bytes": 287276,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/102/q22-potato-membrane.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-22",
+          "chapter": "cells",
+          "field": "figure",
+          "width": 2169,
+          "height": 725
+        }
+      ],
+      "sha256": "9c7e5b5aaf127b9e13b3c46d968bd4ceb9bae21b4e70354cf2093ff49a98a417",
+      "pixels": [
+        2169,
+        725
+      ],
+      "bytes": 296468,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-102-first-nature-25--figure.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-25",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 2169,
+          "height": 725
+        }
+      ],
+      "sha256": "48033a0db1de13dc161632490c8f6a9ca8f8c94aa433d83e6b7eac79fd7bd985",
+      "pixels": [
+        2169,
+        725
+      ],
+      "bytes": 328476,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/102/q26-enzyme-specificity.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-26",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1923,
+          "height": 818
+        }
+      ],
+      "sha256": "26b8ea29de05705f6bea54335e14fcbc41706f55cd4167e219d6b09175e4f554",
+      "pixels": [
+        1923,
+        818
+      ],
+      "bytes": 285118,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/102/q44-vessel-oxygen.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-44",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 479,
+          "height": 414
+        }
+      ],
+      "sha256": "10be4dbae993a28789b775366e32360082592a9466f72c78e39ff80f5cd28154",
+      "pixels": [
+        479,
+        414
+      ],
+      "bytes": 5758,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-102-layering--shared.webp",
+      "uses": [
+        {
+          "id": "basic-102-first-nature-55",
+          "chapter": "reproduction",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 382
+        },
+        {
+          "id": "basic-102-first-nature-56",
+          "chapter": "reproduction",
+          "field": "questionGroup.sharedFigure",
+          "width": 1200,
+          "height": 382
+        }
+      ],
+      "sha256": "58b088dadbccf0ea5257b8e4a0cd9c1c8d87345adf852fda6ed3d21e5de8147d",
+      "pixels": [
+        1200,
+        382
+      ],
+      "bytes": 61574,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-94-first-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-10",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "sha256": "fb2bbd6a77bd664d250e019e0a7eb67dfb478fe80b0f029a097670e62aa5743f",
+      "pixels": [
+        1448,
+        1086
+      ],
+      "bytes": 374366,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-94-first-nature-19--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-19",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1000,
+          "height": 568
+        }
+      ],
+      "sha256": "9b5a1b74da68e3d457eedc55d73b9759d4fbdb1fe1ffa202280905f3ddc05501",
+      "pixels": [
+        1000,
+        568
+      ],
+      "bytes": 25456,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/94/first-q20-official.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-20",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 399,
+          "height": 284
+        }
+      ],
+      "sha256": "e3afe28889c64bce15b876024411f9ae45b7b315fcb8796564399af85bd9b56d",
+      "pixels": [
+        399,
+        284
+      ],
+      "bytes": 9702,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-94-first-nature-28--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-28",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 325,
+          "height": 300
+        }
+      ],
+      "sha256": "809a578bfebc4aabe6bd8392a613f920fa4c931d384338d21f87418bd9b46248",
+      "pixels": [
+        325,
+        300
+      ],
+      "bytes": 7022,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-94-first-nature-46--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-46",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 545
+        }
+      ],
+      "sha256": "86c66a607d045238c5cb4268c77d1c453a2d9ac811cfd24b92be2cc73a70348d",
+      "pixels": [
+        1200,
+        545
+      ],
+      "bytes": 27428,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/94/first-group-53-54-official.webp",
+      "uses": [
+        {
+          "id": "basic-94-first-nature-53",
+          "chapter": "nutrition-and-energy",
+          "field": "questionGroup.sharedFigure",
+          "width": 1919,
+          "height": 820
+        },
+        {
+          "id": "basic-94-first-nature-54",
+          "chapter": "nutrition-and-energy",
+          "field": "questionGroup.sharedFigure",
+          "width": 1919,
+          "height": 820
+        }
+      ],
+      "sha256": "260dddd714949d2f70cc6e77a064f306745d58470b2dda46103920927f93f02f",
+      "pixels": [
+        1919,
+        820
+      ],
+      "bytes": 388336,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/94/second-q04-view-options.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-4",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 1200,
+          "height": 652
+        }
+      ],
+      "sha256": "4783ae36378666742d80f9dce81e62f0264ed33a1470de7f8e3a021d70b6c877",
+      "pixels": [
+        1200,
+        652
+      ],
+      "bytes": 56452,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-94-second-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-6",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 2073,
+          "height": 759
+        }
+      ],
+      "sha256": "53713dc94739168981da62b75eac8ae814e996067d2618690bfed5cb3dcdb06f",
+      "pixels": [
+        2073,
+        759
+      ],
+      "bytes": 299456,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-94-second-nature-13--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-13",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 315,
+          "height": 240
+        }
+      ],
+      "sha256": "c7cfa860ec4a75c9430b9ea83dd2d93148305dadb0c398aa497c98d6c13e4e2b",
+      "pixels": [
+        315,
+        240
+      ],
+      "bytes": 14324,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-94-second-nature-20--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-20",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 395,
+          "height": 310
+        }
+      ],
+      "sha256": "d5fbe341fcb7264e09372b15b99ef5fa837098fbc17b6b7fed06c6d17396b60f",
+      "pixels": [
+        395,
+        310
+      ],
+      "bytes": 8378,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-94-second-nature-29--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-29",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1024,
+          "height": 915
+        }
+      ],
+      "sha256": "2f577b2353d3633bcfe4be4e6759f1c900c2a63996f0b5d9fa72a5bf233e5924",
+      "pixels": [
+        1024,
+        915
+      ],
+      "bytes": 79048,
+      "format": "webp",
+      "reviewStatus": "replaced-verified",
+      "review": {
+        "status": "replaced-verified",
+        "note": "使用者新圖已將蜘蛛修正為蝗蟲；與書商參考圖的標記與連線相符。",
+        "reference": "wordml03000001png18900.png",
+        "paragraph": 477,
+        "previousNote": "新版將蝗蟲誤寫為蜘蛛；箭頭連線其餘相符，但生物名稱被更換。",
+        "replacementDate": "2026-09-25"
+      }
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-94-second-nature-39--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-39",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "sha256": "993a3f0783ccf37d8fe625fb8fd436227c2c586a65f6f9f76c8b8887b7929139",
+      "pixels": [
+        1200,
+        900
+      ],
+      "bytes": 28102,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-94-second-nature-49--figure.webp",
+      "uses": [
+        {
+          "id": "basic-94-second-nature-49",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 270,
+          "height": 270
+        }
+      ],
+      "sha256": "01ffb231cfaa3d97a49c5fd823b51352257f70b6f1075a61b25a37573be2ff55",
+      "pixels": [
+        270,
+        270
+      ],
+      "bytes": 6900,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-95-first-nature-22--figure.webp",
+      "uses": [
+        {
+          "id": "basic-95-first-nature-22",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1624,
+          "height": 969
+        }
+      ],
+      "sha256": "7fe381460ca24fdc81ad647812c122a568fb83e61fa25e0940f946c953f00238",
+      "pixels": [
+        1624,
+        969
+      ],
+      "bytes": 398896,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-95-first-nature-25--figure.webp",
+      "uses": [
+        {
+          "id": "basic-95-first-nature-25",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 330,
+          "height": 225
+        }
+      ],
+      "sha256": "7a4cae66a43c86ecc61e671ce9422d4e557a16e05e8dc476dc6936f28540c9d9",
+      "pixels": [
+        330,
+        225
+      ],
+      "bytes": 7248,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/95/first-q30-official.webp",
+      "uses": [
+        {
+          "id": "basic-95-first-nature-30",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 269,
+          "height": 359
+        }
+      ],
+      "sha256": "4a352de422548298ed4ef3ea6ddf9befe5865fb86fd92f8084148182d5e419a9",
+      "pixels": [
+        269,
+        359
+      ],
+      "bytes": 8020,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/95/first-q34-official.webp",
+      "uses": [
+        {
+          "id": "basic-95-first-nature-34",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1519,
+          "height": 1036
+        }
+      ],
+      "sha256": "be7b836ab0ec685acc207dbdd14de9e555def7459249060e396de5ca02237b6b",
+      "pixels": [
+        1519,
+        1036
+      ],
+      "bytes": 312080,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/95/first-q46-official.webp",
+      "uses": [
+        {
+          "id": "basic-95-first-nature-46",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1524,
+          "height": 1032
+        }
+      ],
+      "sha256": "61a4186b94dedaa1a268acfc2651f5fca7e5b1a3a677120f83c69498f59f91ff",
+      "pixels": [
+        1524,
+        1032
+      ],
+      "bytes": 373082,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-95-second-nature-2--figure.webp",
+      "uses": [
+        {
+          "id": "basic-95-second-nature-2",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 380,
+          "height": 150
+        }
+      ],
+      "sha256": "798bbf8de1bb2c5b4d666309ef24fb0d3e197ed6de8a1d1648ff64fde00f09fc",
+      "pixels": [
+        380,
+        150
+      ],
+      "bytes": 5508,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-95-second-nature-31--figure.webp",
+      "uses": [
+        {
+          "id": "basic-95-second-nature-31",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1096,
+          "height": 1436
+        }
+      ],
+      "sha256": "0414d98a966301bc7d9fc5b6d31670f4000d225190789eb9a875ea5d2cd533ee",
+      "pixels": [
+        1096,
+        1436
+      ],
+      "bytes": 299492,
+      "format": "webp",
+      "reviewStatus": "matched-publisher",
+      "review": {
+        "status": "matched-publisher",
+        "note": "100公斤綠草→甲→乙→丙相符。",
+        "reference": "wordml02000001jpg7600.jpg",
+        "paragraph": 190
+      }
+    },
+    {
+      "src": "/questions/96/first-q04-official.webp",
+      "uses": [
+        {
+          "id": "basic-96-first-nature-4",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1575,
+          "height": 999
+        }
+      ],
+      "sha256": "61360ec3bd0ebfd4eed60b69aea24830fe0397fa6b84447aa31e4397143e766d",
+      "pixels": [
+        1575,
+        999
+      ],
+      "bytes": 325898,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-96-first-nature-11--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-first-nature-11",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1488,
+          "height": 1057
+        }
+      ],
+      "sha256": "01cd6e8d43602a07daf4265458b05e606940e45336daea828cb6b4c89c82c8e2",
+      "pixels": [
+        1488,
+        1057
+      ],
+      "bytes": 354890,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-96-first-nature-31--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-first-nature-31",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1473,
+          "height": 1068
+        }
+      ],
+      "sha256": "ea4bb7dea48abe948d27532de3d6edb097bd312f09f483bc4a22e378a8437b56",
+      "pixels": [
+        1473,
+        1068
+      ],
+      "bytes": 332718,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-96-first-nature-46--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-first-nature-46",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 440,
+          "height": 223
+        }
+      ],
+      "sha256": "1a112d0b02657cadef5f31a1764f06936c13d225e4ba10d9e02a211abf07eb5b",
+      "pixels": [
+        440,
+        223
+      ],
+      "bytes": 7656,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-96-first-nature-54--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-first-nature-54",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1068,
+          "height": 1472
+        }
+      ],
+      "sha256": "389313f2866cdcb7a45a5ae2cc0f5db4e05cde29f51eb0e5ada5b79d3d495fe2",
+      "pixels": [
+        1068,
+        1472
+      ],
+      "bytes": 315286,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-96-second-nature-9--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-second-nature-9",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1610,
+          "height": 977
+        }
+      ],
+      "sha256": "e63b1a559d6ee198fa9cff91a6222317717d9fa064ce8fc9a3ceaa1f6c7fa5e8",
+      "pixels": [
+        1610,
+        977
+      ],
+      "bytes": 297302,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-96-second-nature-10--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-second-nature-10",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1629,
+          "height": 966
+        }
+      ],
+      "sha256": "f908bf6dbe448882609cdf36f4e354145face2f6c2a52334ec3150ecadda094f",
+      "pixels": [
+        1629,
+        966
+      ],
+      "bytes": 368528,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-96-second-nature-12--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-second-nature-12",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 499
+        }
+      ],
+      "sha256": "b372f52469d98e86f1d800dd4323d8962c3414d329bfa251c44d2af23e38addd",
+      "pixels": [
+        1200,
+        499
+      ],
+      "bytes": 24590,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-96-second-nature-29--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-second-nature-29",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 404
+        }
+      ],
+      "sha256": "c5520af2e2720955ea195717c0912eec19f61d98b144e4b8f3639fa61eeac39a",
+      "pixels": [
+        1200,
+        404
+      ],
+      "bytes": 42248,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-96-second-nature-30--figure.webp",
+      "uses": [
+        {
+          "id": "basic-96-second-nature-30",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1398,
+          "height": 1125
+        }
+      ],
+      "sha256": "21e96225786d86ca0c57c84a1dea3a082e96dbefb8f5e86b26a09ccc4da76cfa",
+      "pixels": [
+        1398,
+        1125
+      ],
+      "bytes": 627808,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-90-first-nature-16--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-16",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1200,
+          "height": 547
+        }
+      ],
+      "sha256": "0218a69763adb1ef981e347b718b337287d90d68dd7c90dc5a7d76daa31ebe32",
+      "pixels": [
+        1200,
+        547
+      ],
+      "bytes": 33260,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/first-q17-table.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-17",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 1305,
+          "height": 1205
+        }
+      ],
+      "sha256": "3e67408c7cfa8a97d08f613f3942e297661546c4898417d8ce74567bbbb8c5dc",
+      "pixels": [
+        1305,
+        1205
+      ],
+      "bytes": 357088,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/first-q18-official.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-18",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1766,
+          "height": 891
+        }
+      ],
+      "sha256": "e15b541c7e59802a6a035981c07060b7b747186689d3270f1d37b140503af8fb",
+      "pixels": [
+        1766,
+        891
+      ],
+      "bytes": 358832,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-90-first-nature-21--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-21",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 754
+        }
+      ],
+      "sha256": "e9a42002b20eef7c81947ffbf5dd0ad2af4c3d232c768f4341af88fd95715bdd",
+      "pixels": [
+        1200,
+        754
+      ],
+      "bytes": 87004,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-90-first-nature-22--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-22",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1054,
+          "height": 1200
+        }
+      ],
+      "sha256": "78f2cec5fe8692ef6bd860d6f0af658065c42855347c106e71fe7b31a3accceb",
+      "pixels": [
+        1054,
+        1200
+      ],
+      "bytes": 72144,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/first-q23-official.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-23",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1272,
+          "height": 1237
+        }
+      ],
+      "sha256": "8f5d47dd6aa1a3a5ad6d1cdca2aea90da061c48481a1bd298ec1652aa8b3ff1d",
+      "pixels": [
+        1272,
+        1237
+      ],
+      "bytes": 354194,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-90-first-nature-32--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-32",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 757
+        }
+      ],
+      "sha256": "9b0eca37b7928afd11885d6a93e7fda5abdeb55d7017f211fade57acc8247327",
+      "pixels": [
+        1200,
+        757
+      ],
+      "bytes": 81356,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-90-first-nature-38--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-38",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1260,
+          "height": 472
+        }
+      ],
+      "sha256": "2f8282a7e94d0094616fa509a2814b0c8d187bfbe3e588b3eeb8de72d8163d3b",
+      "pixels": [
+        1260,
+        472
+      ],
+      "bytes": 24052,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-90-first-nature-55--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-first-nature-55",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1498,
+          "height": 1050
+        }
+      ],
+      "sha256": "63ade4d9139d9d9fdfd958111168b3889a03bac7847a85a95a4348c96a89f54b",
+      "pixels": [
+        1498,
+        1050
+      ],
+      "bytes": 315822,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-90-second-nature-14--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-14",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 1037
+        }
+      ],
+      "sha256": "ab6c2e811400be1abc5030b9ede03cbb9c818b9293cc7b2e5a7abe9f00943d1b",
+      "pixels": [
+        1200,
+        1037
+      ],
+      "bytes": 96414,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/second-q16-official.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-16",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1143,
+          "height": 1376
+        }
+      ],
+      "sha256": "4057d35a5b5cc4e16572ae70fd1e47f492404248a049b3746e2b0b9080c9475d",
+      "pixels": [
+        1143,
+        1376
+      ],
+      "bytes": 429776,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/second-q18-microscope.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-18",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 620,
+          "height": 907
+        }
+      ],
+      "sha256": "8d11b002c72cc3c8193b67e1368932e695fbe2777821aba07743894d64918da0",
+      "pixels": [
+        620,
+        907
+      ],
+      "bytes": 34484,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-90-second-nature-19--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-19",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 865
+        }
+      ],
+      "sha256": "1848e674b09b4fbc574f3e8fa0bbe96c438cf2a7e8c827586052a375a0d493a3",
+      "pixels": [
+        1200,
+        865
+      ],
+      "bytes": 80950,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-90-second-nature-21--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-21",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 834,
+          "height": 1200
+        }
+      ],
+      "sha256": "143e808610825f93d81b18bb8fb4adef437dd2fd244d8b1f1e527a3f0befd6fc",
+      "pixels": [
+        834,
+        1200
+      ],
+      "bytes": 41570,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/90/second-q32-official.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-32",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1050,
+          "height": 915
+        }
+      ],
+      "sha256": "99ca4974aca198c0034dbe1a1409f683838137fee7d9cc4c1e62c09353a662b7",
+      "pixels": [
+        1050,
+        915
+      ],
+      "bytes": 48392,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-90-second-nature-33--figure.webp",
+      "uses": [
+        {
+          "id": "basic-90-second-nature-33",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 537,
+          "height": 370
+        }
+      ],
+      "sha256": "4da5f73f1f5952744afb0425784a8d88500529853585d481a4237ec632ea34f1",
+      "pixels": [
+        537,
+        370
+      ],
+      "bytes": 41332,
+      "format": "webp",
+      "reviewStatus": "replaced-verified",
+      "review": {
+        "status": "replaced-verified",
+        "note": "使用者新圖已恢復鳥及蝗蟲→鳥；與書商參考圖的生物與連線相符。",
+        "reference": "wordml02000001jpg4400.jpg",
+        "paragraph": 125,
+        "previousNote": "現用圖缺少鳥及蝗蟲→鳥，鳥為正解選項，影響作答。",
+        "replacementDate": "2026-09-25"
+      }
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-91-first-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-7",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 370,
+          "height": 420
+        }
+      ],
+      "sha256": "13a4092066e5d1a21733c54c8c23efb02128fcdd89a91fae8c529dc14acce33f",
+      "pixels": [
+        370,
+        420
+      ],
+      "bytes": 18516,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-91-first-nature-16--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-16",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 350,
+          "height": 145
+        }
+      ],
+      "sha256": "62811efc7351963e40c54512d7e85fceda839cb12139fcf962e5bba598b8eb38",
+      "pixels": [
+        350,
+        145
+      ],
+      "bytes": 7026,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-91-first-nature-31--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-31",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 370,
+          "height": 260
+        }
+      ],
+      "sha256": "a8dfec2a1a694aa3e6e6e8c06e27b562e7e0bac905dcee92f83ebe5f26f05aa6",
+      "pixels": [
+        370,
+        260
+      ],
+      "bytes": 9388,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-91-first-nature-36--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-36",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 390,
+          "height": 285
+        }
+      ],
+      "sha256": "a8e706af66c156123ca9a4ce4e5c1492d1fa52e572266e528fdd7a9c394552a0",
+      "pixels": [
+        390,
+        285
+      ],
+      "bytes": 10712,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-91-first-nature-44--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-44",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 370,
+          "height": 390
+        }
+      ],
+      "sha256": "8a69df48f6104261c77a736ddc889799829dcb5d317cbaa17486458f52e85ec9",
+      "pixels": [
+        370,
+        390
+      ],
+      "bytes": 12542,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/91/first-q51-official.webp",
+      "uses": [
+        {
+          "id": "basic-91-first-nature-51",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1348,
+          "height": 1167
+        }
+      ],
+      "sha256": "8eeb94814f941aceebaeac9dae7dc6a213d7ee54153076b22c677b4369cc4169",
+      "pixels": [
+        1348,
+        1167
+      ],
+      "bytes": 379284,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/91/second-q03-official.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-3",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 2173,
+          "height": 724
+        }
+      ],
+      "sha256": "f25c5be5c5de0346e472237fc779af7d1a4ea01df9450d158438c0f3a973ea01",
+      "pixels": [
+        2173,
+        724
+      ],
+      "bytes": 298348,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-91-second-nature-17--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-17",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1550,
+          "height": 1015
+        }
+      ],
+      "sha256": "457d28368fd5fadd99074d8351fb5a58f43f2d6a740a6a932b50ec958a24b259",
+      "pixels": [
+        1550,
+        1015
+      ],
+      "bytes": 325606,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-91-second-nature-20--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-20",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 900,
+          "height": 720
+        }
+      ],
+      "sha256": "ec07762f113081a0294e50fa025a0f02cafdc029e9f5b1cf78936ec1df9ee7ab",
+      "pixels": [
+        900,
+        720
+      ],
+      "bytes": 28830,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-91-second-nature-22--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-22",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 825
+        }
+      ],
+      "sha256": "3f6a7284858871c38abd11339eea0da3b8330d8f94aee8535b3c0cb89c435342",
+      "pixels": [
+        1200,
+        825
+      ],
+      "bytes": 45230,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-91-second-nature-25--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-25",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 401
+        }
+      ],
+      "sha256": "d9af13b2dcdcaab8b5aa68a8ef513f27b8e519578694201035580ff8fa226e0d",
+      "pixels": [
+        1200,
+        401
+      ],
+      "bytes": 22518,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/91/second-q27-view.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-27",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 300,
+          "height": 305
+        }
+      ],
+      "sha256": "f85936f175b33ac29e5464545399e983d37aef7aae51e9fe117f3af1db84ff0e",
+      "pixels": [
+        300,
+        305
+      ],
+      "bytes": 4726,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-91-second-nature-32--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-32",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1200,
+          "height": 628
+        }
+      ],
+      "sha256": "2375a41317ec9eed01db69801716fa687e041809004ede5a39fa5a328c2db9b5",
+      "pixels": [
+        1200,
+        628
+      ],
+      "bytes": 26228,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-91-second-nature-47--figure.webp",
+      "uses": [
+        {
+          "id": "basic-91-second-nature-47",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 330,
+          "height": 315
+        }
+      ],
+      "sha256": "f38baff975bbfe2a84ab31c054e05328960a4e849db8094363bd2dce346999ef",
+      "pixels": [
+        330,
+        315
+      ],
+      "bytes": 10734,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-92-first-nature-5--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-5",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 2112,
+          "height": 674
+        }
+      ],
+      "sha256": "ebe1ff8b511e32963967acbbaaef1c1ec3dec01da00f236869378e02224c0a61",
+      "pixels": [
+        2112,
+        674
+      ],
+      "bytes": 259730,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-92-first-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-6",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 1689,
+          "height": 931
+        }
+      ],
+      "sha256": "fdc3064992febafdf803645aed8e383af6edfa7178044c11c2ba807c890f8da6",
+      "pixels": [
+        1689,
+        931
+      ],
+      "bytes": 306810,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-92-first-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-7",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 330,
+          "height": 270
+        }
+      ],
+      "sha256": "f69448b38190b69f25b8f4e881f5292fe0495682a6ccd0ac95ad1ed3c52c9f22",
+      "pixels": [
+        330,
+        270
+      ],
+      "bytes": 23414,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-08/basic-92-first-nature-8--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-8",
+          "chapter": "genetics",
+          "field": "figure",
+          "width": 300,
+          "height": 225
+        }
+      ],
+      "sha256": "9a7d2084bda30e657533e34963f2d33ae9f52cc9cf0e06bbdccd51efa5bd272a",
+      "pixels": [
+        300,
+        225
+      ],
+      "bytes": 4494,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-92-first-nature-23--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-23",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "sha256": "372ea11753cc5362e5c22e9083694683ab2882b13515c367110cb4bae648aab2",
+      "pixels": [
+        1200,
+        1200
+      ],
+      "bytes": 63784,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-06/basic-92-first-nature-38--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-38",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 998
+        }
+      ],
+      "sha256": "f4e75caa4e82b273f769ba5888641619b2ffcf969c8e7e3ac4f1cd7e6eeb47c3",
+      "pixels": [
+        1200,
+        998
+      ],
+      "bytes": 173256,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/first-q41-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-41",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1404,
+          "height": 1120
+        }
+      ],
+      "sha256": "159135904aa8ec02f3178c0733415b2d293314c6de4d01168ec3c35a4e9daaa2",
+      "pixels": [
+        1404,
+        1120
+      ],
+      "bytes": 510672,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/first-q42-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-42",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 912,
+          "height": 1176
+        }
+      ],
+      "sha256": "cf9856d4a0c579279ce47275269a7e5321df1ecc29291c6c5b411c164f4b9f51",
+      "pixels": [
+        912,
+        1176
+      ],
+      "bytes": 103934,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-92-first-nature-43--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-43",
+          "chapter": "homeostasis",
+          "field": "figure",
+          "width": 1200,
+          "height": 973
+        }
+      ],
+      "sha256": "5c19716be1d42fc188dca38058023f3a1104f052556f08b5c47b22e9adb48ef4",
+      "pixels": [
+        1200,
+        973
+      ],
+      "bytes": 26566,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-92-first-carbon-cycle--shared.webp",
+      "uses": [
+        {
+          "id": "basic-92-first-nature-52",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 1312,
+          "height": 810
+        },
+        {
+          "id": "basic-92-first-nature-53",
+          "chapter": "ecology",
+          "field": "questionGroup.sharedFigure",
+          "width": 1312,
+          "height": 810
+        }
+      ],
+      "sha256": "53769de8a368849d774b89cff05771c00fa66b8ceb690b356df66303151b5316",
+      "pixels": [
+        1312,
+        810
+      ],
+      "bytes": 234694,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/second-q10-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-10",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 2170,
+          "height": 725
+        }
+      ],
+      "sha256": "8a9462940af02ce4228b5af45953fd99eb2276f512f61058af235499864bb3b3",
+      "pixels": [
+        2170,
+        725
+      ],
+      "bytes": 307788,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-10/basic-92-second-nature-12--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-12",
+          "chapter": "classification",
+          "field": "figure",
+          "width": 1312,
+          "height": 1199
+        }
+      ],
+      "sha256": "1fe8291eda3fbc3d954072187f796a63daf11efe0368a2e3740aacd71452d30c",
+      "pixels": [
+        1312,
+        1199
+      ],
+      "bytes": 291384,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-92-second-nature-13--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-13",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1563,
+          "height": 1006
+        }
+      ],
+      "sha256": "f50dd835ca8ae5fb0b603fac678f5768a22eea65b6b3cc4add5202753ad4930b",
+      "pixels": [
+        1563,
+        1006
+      ],
+      "bytes": 319048,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-92-second-nature-14--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-14",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1774,
+          "height": 887
+        }
+      ],
+      "sha256": "b687e7b6ebf6d743b1f707036bb59faaf44d6f7edfea2c20a524b50a70c57053",
+      "pixels": [
+        1774,
+        887
+      ],
+      "bytes": 290024,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-05/basic-92-second-nature-28--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-28",
+          "chapter": "coordination",
+          "field": "figure",
+          "width": 1200,
+          "height": 400
+        }
+      ],
+      "sha256": "025296546768750564a6f02d915e780dd139f5e1e1b93a222deb2620a9ffa122",
+      "pixels": [
+        1200,
+        400
+      ],
+      "bytes": 46164,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-03/basic-92-second-nature-30--figure.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-30",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 1100,
+          "height": 672
+        }
+      ],
+      "sha256": "4e4d370613fd75e254c2d25b1310dc2c2c24bbbb3a6c45708c2134f88aa4341d",
+      "pixels": [
+        1100,
+        672
+      ],
+      "bytes": 19486,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/second-q31-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-31",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1835,
+          "height": 857
+        }
+      ],
+      "sha256": "ee377081e98a02df0a3f04fe778e8cf9831e486fb641a49a6b278923420780dc",
+      "pixels": [
+        1835,
+        857
+      ],
+      "bytes": 360676,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/second-q32-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-32",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1330,
+          "height": 1182
+        }
+      ],
+      "sha256": "717080e561829d9e52c3dab180af199f333446a5d5ae4444a1d377241cfb55a2",
+      "pixels": [
+        1330,
+        1182
+      ],
+      "bytes": 444684,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/92/second-q48-official.webp",
+      "uses": [
+        {
+          "id": "basic-92-second-nature-48",
+          "chapter": "nutrition-and-energy",
+          "field": "figure",
+          "width": 2172,
+          "height": 724
+        }
+      ],
+      "sha256": "2fc3d2f19231429e4aab8fbd2aaf1a4bb41de85940fe9d6cb76142e83c72112f",
+      "pixels": [
+        2172,
+        724
+      ],
+      "bytes": 286334,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-01/basic-93-first-nature-6--figure.webp",
+      "uses": [
+        {
+          "id": "basic-93-first-nature-6",
+          "chapter": "science-and-life",
+          "field": "figure",
+          "width": 900,
+          "height": 360
+        }
+      ],
+      "sha256": "58a93552b53591d138f5a3301413f7e0cc16655f5f6c0e294a1900caceb5db58",
+      "pixels": [
+        900,
+        360
+      ],
+      "bytes": 15678,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-11/basic-93-first-nature-20--figure.webp",
+      "uses": [
+        {
+          "id": "basic-93-first-nature-20",
+          "chapter": "ecology",
+          "field": "figure",
+          "width": 1024,
+          "height": 843
+        }
+      ],
+      "sha256": "c46d0f056cccc418e0e193cbca34cdba0fdf53ed9a6135f149670ea273cbec57",
+      "pixels": [
+        1024,
+        843
+      ],
+      "bytes": 62312,
+      "format": "webp",
+      "reviewStatus": "replaced-verified",
+      "review": {
+        "status": "replaced-verified",
+        "note": "使用者新圖已移除己→乙的多餘箭頭，保留乙→己；與書商參考圖連線相符。",
+        "reference": "wordml02000001jpg17500.jpg",
+        "paragraph": 449,
+        "previousNote": "新版多出己→乙箭頭；書商圖僅乙→己。會改變捕食關係。",
+        "replacementDate": "2026-09-25"
+      }
+    },
+    {
+      "src": "/questions/93/first-q29-official.webp",
+      "uses": [
+        {
+          "id": "basic-93-first-nature-29",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 304,
+          "height": 214
+        }
+      ],
+      "sha256": "5b7bb13dbfefa4406dbacd1deb7fa7d3c7a8da19b940199445f75010453cb9ba",
+      "pixels": [
+        304,
+        214
+      ],
+      "bytes": 3488,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-93-second-nature-7--figure.webp",
+      "uses": [
+        {
+          "id": "basic-93-second-nature-7",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 1200,
+          "height": 721
+        }
+      ],
+      "sha256": "fdeb58358f7376b46288378a07004522f7bb6b9e8b11680ece09bc30f8f19856",
+      "pixels": [
+        1200,
+        721
+      ],
+      "bytes": 40086,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/93/second-q13-official.webp",
+      "uses": [
+        {
+          "id": "basic-93-second-nature-13",
+          "chapter": "transport",
+          "field": "figure",
+          "width": 1842,
+          "height": 854
+        }
+      ],
+      "sha256": "7756566e7dede48c9940db6b11f28ccb2d7005df244239e94477ba05c1107f7a",
+      "pixels": [
+        1842,
+        854
+      ],
+      "bytes": 335794,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    },
+    {
+      "src": "/questions/refined/unit-07/basic-93-second-nature-30--figure.webp",
+      "uses": [
+        {
+          "id": "basic-93-second-nature-30",
+          "chapter": "reproduction",
+          "field": "figure",
+          "width": 285,
+          "height": 330
+        }
+      ],
+      "sha256": "ad07fae0f0569c7d6029f79e47560999c8d2afc659ea7d5ec4315a1ef6db43e4",
+      "pixels": [
+        285,
+        330
+      ],
+      "bytes": 10516,
+      "format": "webp",
+      "reviewStatus": "not-visually-reviewed"
+    }
+  ]
+}

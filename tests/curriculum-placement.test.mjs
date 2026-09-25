@@ -31,9 +31,26 @@ const { buildSessionQuestions } = require(join(scratch, "lib/practice.js"));
 const { refineUnit01To03Explanations, unit01To03ExplanationRevisionIds } = require(join(scratch, "data/unit01-03-explanation-review.js"));
 const { refineUnit04To11Explanations, unit04To11ExplanationRevisionIds, unit04To11ReviewedChapters } = require(join(scratch, "data/unit04-11-explanation-review.js"));
 
+
+test("user-supplied food-web replacements retain expected files and dimensions", () => {
+  assert.deepEqual([questionById["basic-94-second-nature-29"].figure.width, questionById["basic-94-second-nature-29"].figure.height], [1024,915]);
+  assert.equal(createHash("sha256").update(readFileSync(new URL("../public/questions/refined/unit-11/basic-94-second-nature-29--figure.webp", import.meta.url))).digest("hex"), "2f577b2353d3633bcfe4be4e6759f1c900c2a63996f0b5d9fa72a5bf233e5924");
+  assert.deepEqual([questionById["basic-90-second-nature-33"].figure.width, questionById["basic-90-second-nature-33"].figure.height], [537,370]);
+  assert.equal(createHash("sha256").update(readFileSync(new URL("../public/questions/refined/unit-11/basic-90-second-nature-33--figure.webp", import.meta.url))).digest("hex"), "4da5f73f1f5952744afb0425784a8d88500529853585d481a4237ec632ea34f1");
+  assert.deepEqual([questionById["basic-93-first-nature-20"].figure.width, questionById["basic-93-first-nature-20"].figure.height], [1024,843]);
+  assert.equal(createHash("sha256").update(readFileSync(new URL("../public/questions/refined/unit-11/basic-93-first-nature-20--figure.webp", import.meta.url))).digest("hex"), "c46d0f056cccc418e0e193cbca34cdba0fdf53ed9a6135f149670ea273cbec57");
+  assert.doesNotMatch(questionById["basic-93-first-nature-20"].explanation.reasoning, /仍待|暫不/);
+});
+
 test("unit 04–11 review preserves all question data and the prior 107 explanations", () => {
   const hash = value => createHash("sha256").update(JSON.stringify(value)).digest("hex");
-  assert.equal(hash(questions.map(({ explanation, ...rest }) => rest)), "3202265d9f3dfe9a88b71175fbb7cdab66a8335fb38e7e6b06b0527b87be0e99");
+  // The later user-supplied replacements only change these image dimensions.
+  const oldSizes = {"basic-90-second-nature-33":[310,355], "basic-94-second-nature-29":[1327,1186], "basic-93-first-nature-20":[1254,1254]};
+  const baseline = questions.map(({ explanation, ...rest }) => {
+    const old = oldSizes[rest.id];
+    return old ? {...rest, figure: {...rest.figure, width: old[0], height: old[1]}} : rest;
+  });
+  assert.equal(hash(baseline), "3202265d9f3dfe9a88b71175fbb7cdab66a8335fb38e7e6b06b0527b87be0e99");
   const prior = questions.filter(q => !unit04To11ReviewedChapters.includes(q.chapterId));
   assert.equal(prior.length, 107);
   assert.equal(hash(prior.map(q => q.explanation)), "1f9dfa11e9b43c5a02f78b3147d90ee97c78e7c10f7994db7042f422b172a145");

@@ -57,15 +57,15 @@ const figures: Record<string, QuestionFigure> = {
   "basic-101-first-nature-15": figure(`${refinedRoot}/basic-101-first-nature-15--figure.webp`, "101 年第一次基測第 15 題：四位同學生態瓶所放材料的比較表", 1608, 978),
   "basic-101-first-nature-24": figure(`${refinedRoot}/basic-101-first-nature-24--figure.webp`, "101 年第一次基測第 24 題：甲、乙、丙、丁四階層總能量長條圖", 1422, 1106),
   "basic-102-first-nature-8": figure(`${refinedRoot}/basic-102-first-nature-8--figure.webp`, "102 年第一次基測第 8 題：砂藻、蝦、烏賊、海鳥、鯨魚、企鵝與海豹的食物網", 1395, 1127),
-  "basic-94-second-nature-29": figure(`${refinedRoot}/basic-94-second-nature-29--figure.webp`, "94 年第二次基測第 29 題：玉米、蝗蟲、麻雀、松鼠、鼠與老鷹的食物網", 1327, 1186),
+  "basic-94-second-nature-29": figure(`${refinedRoot}/basic-94-second-nature-29--figure.webp`, "94 年第二次基測第 29 題：玉米、蝗蟲、麻雀、松鼠、鼠與老鷹的食物網", 1024, 915),
   "basic-95-second-nature-31": figure(`${refinedRoot}/basic-95-second-nature-31--figure.webp`, "95 年第二次基測第 31 題：100 公斤綠草及甲、乙、丙生物的食物鏈", 1096, 1436),
   "basic-96-first-nature-54": figure(`${refinedRoot}/basic-96-first-nature-54--figure.webp`, "96 年第一次基測第 54 題：草、水牛、獅子、禿鷹與細菌的食物網", 1068, 1472),
   "basic-96-second-nature-9": figure(`${refinedRoot}/basic-96-second-nature-9--figure.webp`, "96 年第二次基測第 9 題：加入乙生物前後甲生物個數的實線與虛線曲線", 1610, 977),
   "basic-90-first-nature-55": figure(`${refinedRoot}/basic-90-first-nature-55--figure.webp`, "90 年第一次基測第 55 題：TBT 工廠、河流、海流與甲乙丙丁四地位置圖", 1498, 1050),
-  "basic-90-second-nature-33": figure(`${refinedRoot}/basic-90-second-nature-33--figure.webp`, "90 年第二次基測第 33 題：草、蝗蟲、鳥、蛙、兔、羊與豹的食物網", 310, 355),
+  "basic-90-second-nature-33": figure(`${refinedRoot}/basic-90-second-nature-33--figure.webp`, "90 年第二次基測第 33 題：草、蝗蟲、鳥、蛙、兔、羊與豹的食物網", 537, 370),
   "basic-92-second-nature-13": figure(`${refinedRoot}/basic-92-second-nature-13--figure.webp`, "92 年第二次基測第 13 題：學力湖一至十二月平均水位變化曲線", 1563, 1006),
   "basic-92-second-nature-14": figure(`${refinedRoot}/basic-92-second-nature-14--figure.webp`, "92 年第二次基測第 14 題：狩獵、農耕與工業時期的世界人口成長曲線", 1774, 887),
-  "basic-93-first-nature-20": figure(`${refinedRoot}/basic-93-first-nature-20--figure.webp`, "93 年第一次基測第 20 題：甲、乙、丙、丁、戊、己、庚生物的食物網", 1254, 1254),
+  "basic-93-first-nature-20": figure(`${refinedRoot}/basic-93-first-nature-20--figure.webp`, "93 年第一次基測第 20 題：甲、乙、丙、丁、戊、己、庚生物的食物網", 1024, 843),
 };
 
 const groupSharedOverrides: Record<string, GroupSharedOverride> = {
