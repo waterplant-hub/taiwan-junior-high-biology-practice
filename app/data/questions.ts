@@ -1,4 +1,5 @@
 import { questions115 } from "./questions-115";
+import { refineUnit01To03Explanations } from "./unit01-03-explanation-review";
 import { questions114 } from "./questions-114";
 import { questions113 } from "./questions-113";
 import { questions112 } from "./questions-112";
@@ -180,7 +181,7 @@ refinedQuestions = refineYear113Explanations(refinedQuestions);
 refinedQuestions = refineYear114Explanations(refinedQuestions);
 refinedQuestions = refineYear115Explanations(refinedQuestions);
 
-export const questions = reviewQuestionPlacements(refinedQuestions).map(attachAiMetadata);
+export const questions = refineUnit01To03Explanations(reviewQuestionPlacements(refinedQuestions)).map(attachAiMetadata);
 
 function validateQuestions(rows: BiologyQuestion[]): void {
   const ids = new Set<string>();

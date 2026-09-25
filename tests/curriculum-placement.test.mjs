@@ -27,6 +27,43 @@ const require = createRequire(import.meta.url);
 const { questions, questionById } = require(join(scratch, "data/questions.js"));
 const { practiceUnits } = require(join(scratch, "data/practice-units.js"));
 const { buildSessionQuestions } = require(join(scratch, "lib/practice.js"));
+const { refineUnit01To03Explanations, unit01To03ExplanationRevisionIds } = require(join(scratch, "data/unit01-03-explanation-review.js"));
+
+test("unit 01–03 explanation pass changes only explanations of its reviewed targets", () => {
+  const input = structuredClone(questions);
+  const before = structuredClone(input);
+  const result = refineUnit01To03Explanations(input);
+  assert.deepEqual(input, before, "the input is not mutated");
+  assert.equal(result.length, 567);
+  const withoutExplanation = ({ explanation, ...rest }) => rest;
+  assert.deepEqual(result.map(withoutExplanation), before.map(withoutExplanation));
+  assert.equal(unit01To03ExplanationRevisionIds.size, 42);
+  for (let i = 0; i < result.length; i++) {
+    const q = result[i];
+    if (!unit01To03ExplanationRevisionIds.has(q.id)) {
+      assert.strictEqual(q, input[i], q.id);
+      continue;
+    }
+    assert.ok(["science-and-life", "cells", "nutrition-and-energy"].includes(q.chapterId));
+    assert.equal(q.explanation.provenance, "ai-generated");
+    assert.equal(q.explanation.reviewStatus, "unreviewed");
+    assert.equal(q.explanation.optionAnalysisMode, "covered-by-reasoning");
+    assert.deepEqual(q.explanation.optionAnalysis, []);
+    const text = `${q.explanation.summary}\n${q.explanation.reasoning}`;
+    assert.doesNotMatch(text, /選項 [A-D]|因此選 [A-D]|故選 [A-D]|先定位血液成分|此選項與題圖資料/, q.id);
+  }
+});
+
+test("reviewed explanations retain concrete reasoning for known misconceptions", () => {
+  const explanation = id => Object.values(questionById[id].explanation).join(" ");
+  assert.match(explanation("basic-93-first-nature-6"), /不會再把它翻轉/);
+  assert.match(explanation("basic-90-second-nature-18"), /丁是調節輪/);
+  assert.match(explanation("basic-91-first-nature-51"), /脂肪也算成 4 大卡/);
+  assert.match(explanation("cap-110-nature-7"), /每公克的細菌數，不是整杯/);
+  assert.match(explanation("basic-96-first-nature-37"), /同一物質的不同名稱/);
+  assert.match(explanation("cap-115-nature-37"), /把小分子組合起來合成 X/);
+  assert.doesNotMatch(explanation("basic-92-first-nature-40"), /水勢|非極性/);
+});
 
 test("all 567 questions have consistent reviewed metadata and unique IDs", () => {
   assert.equal(questions.length, 567);

@@ -487,10 +487,10 @@ export function validateYear90ExplanationQuality(
     const officialReason = question.explanation.optionAnalysis.find(
       (row) => row.optionId === question.officialAnswer,
     )?.reason;
-    if (
+    if (question.explanation.optionAnalysisMode !== "covered-by-reasoning" && (
       !officialReason ||
       (!officialReason.includes("正確") && !officialReason.includes("本題要找"))
-    ) {
+    )) {
       throw new Error(`${question.id}: 官方答案的選項解析未明確標示判斷`);
     }
   });
